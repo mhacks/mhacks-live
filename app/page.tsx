@@ -1,7 +1,7 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import QuickLink from '@/components/QuickLink';
-import styles from './page.module.css';
+import styles from './page.module.scss';
 
 const quickLinks = [
   {
