@@ -1,0 +1,12 @@
+.container {
+  height: 72px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  text-decoration: none;
+  color: var(--dark-purple);
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

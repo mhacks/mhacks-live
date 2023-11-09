@@ -2,7 +2,9 @@
   width: 100dvw;
   height: 72px;
   padding: 0px 128px;
-  border-bottom: 1px solid var(--light-purple);
+  border-bottom: 1px solid var(--dark-purple);
+  position: sticky;
+  top: 0px;
   background: var(--purple);
   display: flex;
   justify-content: space-between;

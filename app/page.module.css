@@ -1,0 +1,34 @@
+.main {
+  width: 100%;
+
+  .hero {
+    height: calc(100dvh - 72px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 256px;
+
+    .countdown {
+      text-align: center;
+
+      .numerials {
+        font-size: 128px;
+        font-family: 'Outfit';
+        font-variant-numeric: tabular-nums;
+        color: var(--dark-purple);
+      }
+
+      .until {
+        font-size: 32px;
+        font-family: 'DM Sans';
+        color: var(--dark-purple);
+      }
+    }
+
+    .quickLinks {
+      display: flex;
+      gap: 48px;
+    }
+  }
+}

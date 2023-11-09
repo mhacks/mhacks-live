@@ -1,6 +1,6 @@
 import Image from 'next/image';
 import Link from 'next/link';
-import styles from './nav.module.scss';
+import styles from './Nav.module.scss';
 
 const links = [
   {
@@ -9,22 +9,24 @@ const links = [
   },
   {
     text: 'Map',
-    href: '/'
+    href: '/map'
   },
   {
     text: 'Resources',
-    href: '/'
+    href: '/resources'
   },
   // {
   //   text: 'Prizes',
-  //   href: '/'
+  //   href: '/prizes'
   // },
 ];
 
 export default function Nav() {
   return (
     <nav className={styles.nav}>
-      <Image width={118} height={35} src='/logo.svg' alt="logo" />
+      <Link href='/' className={styles.logo}>
+        <Image width={118} height={35} src='/logo.svg' alt="logo" />
+      </Link>
       <div className={styles.links}>
         {links.map((link) =>
           <Link key={link.text} href={link.href}>{link.text}</Link>

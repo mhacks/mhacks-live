@@ -1,8 +1,7 @@
 :root {
+  --dark-purple: #8b80b4;
   --purple: #ad9ee8;
   --light-purple: #e7e0ff;
-
-  --phone: 500px;
 }
 
 * {
@@ -13,7 +12,9 @@
 
 html,
 body {
-  max-width: 100vw;
+  width: 100dvw;
+  height: 100dvh;
   overflow-x: hidden;
   background: var(--light-purple);
+  position: relative;
 }
