@@ -30,6 +30,7 @@ export default function Home() {
           ))}
         </div>
       </div>
+      <div style={{ height: '800px', background: 'white' }}></div>
     </main>
   );
 }

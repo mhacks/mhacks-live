@@ -2,13 +2,13 @@
   width: 100%;
 
   .hero {
-    height: calc(100dvh - 72px);
+    height: calc(80dvh - 72px);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 256px;
-
+    gap: 128px;
+    background: linear-gradient(#fde0ff, var(--light-purple));
     .countdown {
       text-align: center;
 
