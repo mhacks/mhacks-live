@@ -19,16 +19,15 @@ const links = [
     text: 'Resources',
     href: '/resources',
   },
-  // {
-  //   text: 'Prizes',
-  //   href: '/prizes'
-  // },
+  {
+    text: 'Prizes',
+    href: '/prizes'
+  },
 ]
 
 export default function Nav() {
 
   const pathname = usePathname()
-  console.log('pathname', pathname)
 
   return (
     <nav className={styles.nav}>
