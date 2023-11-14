@@ -5,6 +5,7 @@
   gap: 16px;
   text-decoration: none;
   color: var(--dark-purple);
+  transition: transform 0.2s;
 
   img {
     border: 1px solid var(--purple);
@@ -13,5 +14,6 @@
 
   &:hover {
     text-decoration: underline;
+    transform: translateY(-4px);
   }
 }

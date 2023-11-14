@@ -10,6 +10,10 @@
   justify-content: space-between;
   align-items: center;
 
+  .logoMobile {
+    display: none;
+  }
+
   .links {
     display: flex;
     align-items: center;
@@ -31,5 +35,13 @@
 
   @media (max-width: 500px) {
     padding: 0px 24px !important;
+
+    .logo {
+      display: none;
+    }
+
+    .logoMobile {
+      display: block !important;
+    }
   }
 }
