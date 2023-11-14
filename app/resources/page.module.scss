@@ -1,0 +1,38 @@
+.page {
+  padding: 64px 128px;
+  background: var(--light-purple);
+
+  @media (max-width: 700px) {
+    padding: 64px 24px;
+  }
+
+  .resourceContainer {
+    margin-top: 24px;
+    display: grid;
+    --num-cols: 6;
+    --col-width: calc((100% - (var(--num-cols) - 1) * 16px) / var(--num-cols));
+    grid-template-columns: repeat(var(--num-cols), var(--col-width));
+    row-gap: 16px;
+    column-gap: 16px;
+
+    @media (max-width: 1800px) {
+      --num-cols: 5;
+    }
+
+    @media (max-width: 1600px) {
+      --num-cols: 4;
+    }
+
+    @media (max-width: 1350px) {
+      --num-cols: 3;
+    }
+
+    @media (max-width: 1100px) {
+      --num-cols: 2;
+    }
+
+    @media (max-width: 700px) {
+      --num-cols: 1;
+    }
+  }
+}

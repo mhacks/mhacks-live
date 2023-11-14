@@ -1,4 +1,6 @@
 :root {
+  --text-primary: #303030;
+  --text-secondary: #505050;
   --dark-purple: #8b80b4;
   --purple: #ad9ee8;
   --light-purple: #e7e0ff;
@@ -16,7 +18,8 @@ body {
   width: 100dvw;
   height: 100dvh;
   overflow-x: hidden;
-  background: #ad9ee8;
+  background: var(--purple);
+  color: var(--text-primary);
   position: relative;
   font-size: 18px;
 }

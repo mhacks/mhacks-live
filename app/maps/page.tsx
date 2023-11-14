@@ -1,6 +1,10 @@
 import styles from './page.module.scss';
 import { maps } from '@/public/data';
 
+export const metadata = {
+  title: "Maps - MHacks Live"
+}
+
 export default function Page() {
   return <main className={styles.page}>
     {/* eslint-disable-next-line @next/next/no-img-element */}

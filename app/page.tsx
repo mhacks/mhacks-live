@@ -10,12 +10,12 @@ import styles from './page.module.scss';
 
 const quickLinks = [
   {
-    iconPath: '/slack.png',
+    iconPath: '/images/slack.png',
     text: 'MHacks Slack',
     href: ''
   },
   {
-    iconPath: '/devpost.png',
+    iconPath: '/images/devpost.png',
     text: 'Devpost Submission',
     href: ''
   }
