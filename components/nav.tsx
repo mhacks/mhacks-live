@@ -1,10 +1,12 @@
-'use client'
+'use client';
 
-import Image from 'next/image'
-import Link from 'next/link'
-import { usePathname } from 'next/navigation'
-import styleBuilder from '@/utils/styleBuilder'
-import styles from './Nav.module.scss'
+import Image from 'next/image';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { useState } from 'react';
+import styleBuilder from '@/utils/styleBuilder';
+import styles from './Nav.module.scss';
+import Menu from '@/public/icons/menu.svg';
 
 const links = [
   {
@@ -23,11 +25,13 @@ const links = [
     text: 'Prizes',
     href: '/prizes'
   },
-]
+];
 
 export default function Nav() {
 
-  const pathname = usePathname()
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const pathname = usePathname();
 
   return (
     <nav className={styles.nav}>
@@ -49,13 +53,16 @@ export default function Nav() {
           alt="logo"
         />
       </Link>
-      <div className={styles.links}>
+      <div className={styleBuilder([styles.links, [styles.hidden, !menuOpen]])}>
         {links.map((link) => (
-          <Link key={link.text} className={styleBuilder([[styles.active, pathname===link.href]])} href={link.href}>
+          <Link key={link.text} className={styleBuilder([[styles.active, pathname === link.href]])} href={link.href} onClick={() => setMenuOpen(false)}>
             {link.text}
           </Link>
         ))}
       </div>
+      <button className={styles.menuBtn} onClick={() => setMenuOpen(prev => !prev)}>
+        <Menu />
+      </button>
     </nav>
-  )
+  );
 }
