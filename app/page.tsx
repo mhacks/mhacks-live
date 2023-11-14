@@ -26,11 +26,14 @@ export default function Home() {
 
   const [duration, setDuration] = useState<string>('');
 
+  const updateDuration = () => {
+    const diff = differenceInSeconds(new Date(2023, 10, 19, 12), Date.now()); // diff in seconds
+    setDuration(format(diff * 1000)); // expects milliseconds
+  };
+
   useEffect(() => {
-    const interval = setInterval(() => {
-      const diff = differenceInSeconds(new Date(2023, 10, 19, 12), Date.now()); // diff in seconds
-      setDuration(format(diff * 1000)); // expects milliseconds
-    }, 1000);
+    updateDuration();
+    const interval = setInterval(() => { updateDuration(); }, 1000);
 
     return () => {
       clearInterval(interval);
