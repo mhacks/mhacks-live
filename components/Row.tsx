@@ -29,10 +29,8 @@ export default function Row({
       }}
     >
       {columns.map((col) => {
-        // const value = col.name === 'Time' ? format(row[col.name], "H:mm a, MMM do") : row[col.name]
-        // console.log('row[col.name]', row[col.name])
-        // console.log(typeof row[col.name])
-        return <p key={col.name}>{"value"}</p>
+        const value = col.name === 'Time' ? format(new Date(row[col.name]), "H:mm aaa, MMM do") : row[col.name]
+        return <p key={col.name}>{value}</p>
       }
       )}
     </div>

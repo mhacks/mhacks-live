@@ -10,9 +10,6 @@ export default function Table({columns, data}) {
   const colWidths = columns.map(col => `calc((100% - (${numCols} - 1) * ${columnGap}px) * ${col.proportion})`)
   const gridTemplateColumns = colWidths.reduce((str, width) => str + ' ' + width)
 
-  console.log('data', data)
-  console.log('typeof data[0].Time', typeof data[0].Time)
-
   return (
     <div className={styles.container}>
       <div

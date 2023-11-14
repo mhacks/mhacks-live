@@ -27,32 +27,32 @@ export const scheduleCols: Array<Column> = [
 /* ================================ EDIT SCHEDULE ================================ */
 export const schedule = [
   {
-    Time: Date('Nov 18, 2023 09:00:00'),
+    Time: new Date('Nov 18, 2023 09:00:00'),
     Event: 'Check-In',
     Location: 'Pierpont Commons',
   },
   {
-    Time: Date('Nov 18, 2023 10:00:00'),
+    Time: new Date('Nov 18, 2023 10:00:00'),
     Event: 'Opening Ceremony',
     Location: 'Location TBD',
   },
   {
-    Time: Date('Nov 18, 2023 11:00:00'),
+    Time: new Date('Nov 18, 2023 11:00:00'),
     Event: 'Team Formation',
     Location: 'Location TBD',
   },
   {
-    Time: Date('Nov 18, 2023 12:00:00'),
+    Time: new Date('Nov 18, 2023 12:00:00'),
     Event: 'Hacking Begins',
     Location: 'Duderstadt Library',
   },
   {
-    Time: Date('Nov 19, 2023 12:00:00'),
+    Time: new Date('Nov 19, 2023 12:00:00'),
     Event: 'Hacking Ends',
     Location: 'Duderstadt Library',
   },
   {
-    Time: Date('Nov 19, 2023 15:00:00'),
+    Time: new Date('Nov 19, 2023 15:00:00'),
     Event: 'Closing Ceremony',
     Location: 'STAMPS Auditorium',
   },

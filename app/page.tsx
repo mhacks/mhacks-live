@@ -41,8 +41,6 @@ export default function Home() {
     };
   }, []);
 
-  console.log('typeof schedule[0].Time', typeof schedule[0].Time)
-
   return (
     <main className={styles.main}>
       <section className={styles.hero}>
@@ -56,6 +54,7 @@ export default function Home() {
             <QuickLink key={quickLink.text} iconPath={quickLink.iconPath} text={quickLink.text} href={quickLink.href} color={'purple'} />
           ))}
         </div>
+        <Image className={styles.downChevron} src="/images/downChevron.svg" alt="downChevron" width={32} height={32} priority />
       </section>
       <div className={styles.scheduleContainer}>
         <h1 className={styles.heading}>Schedule</h1>
