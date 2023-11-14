@@ -1,5 +1,18 @@
 .Footer {
   width: 100dvw;
-  height: 128px;
-  background: blue;
+  height: 172px;
+  padding-bottom: 48px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  background: var(--purple);
+
+  .linkContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 16px;
+  }
 }
