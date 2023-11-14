@@ -7,7 +7,6 @@ import differenceInSeconds from 'date-fns/differenceInSeconds';
 import format from 'format-duration';
 import QuickLink from '@/components/QuickLink';
 import styles from './page.module.scss';
-import { AnyARecord } from 'dns';
 
 const quickLinks = [
   {

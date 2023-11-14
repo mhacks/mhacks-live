@@ -1,9 +1,10 @@
 import type { Metadata } from 'next';
-import { Inter } from 'next/font/google';
+import { Outfit } from 'next/font/google';
+import styleBuilder from '@/utils/styleBuilder';
 import './globals.scss';
 import Nav from '@/components/Nav';
 
-const inter = Inter({ subsets: ['latin'] });
+const outfit = Outfit({ subsets: ['latin'], weight: 'variable' });
 
 export const metadata: Metadata = {
   title: 'MHacks Live',
@@ -16,7 +17,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={styleBuilder([outfit.className])}>
         <Nav />
         {children}
       </body>
