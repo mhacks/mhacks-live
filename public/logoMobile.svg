@@ -1,7 +1,9 @@
-<svg width="34" height="32" viewBox="0 0 34 32" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M10.2794 1.47775L14.4521 7.79263H13.2238H11.7878L12.6275 8.95751L16.31 14.066L16.9063 14.8932L17.5025 14.066L21.185 8.95751L22.0247 7.79263H20.5887H19.3604L23.5331 1.47775L33.0775 0.789933V30.7588L23.4805 29.3755V19.721V18.0607L22.2513 19.1768L16.9063 24.0303L11.5612 19.1768L10.332 18.0607V19.721V29.3755L0.735055 30.7588V0.789933L10.2794 1.47775Z" fill="url(#paint0_linear_2_6)" stroke="white" stroke-width="1.47011"/>
+<svg width="36" height="34" viewBox="0 0 36 34" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M11.2794 2.47775L15.4521 8.79263H14.2238H12.7878L13.6275 9.95751L17.31 15.066L17.9063 15.8932L18.5025 15.066L22.185 9.95751L23.0247 8.79263H21.5887H20.3604L24.5331 2.47775L34.0775 1.78993V31.7588L24.4805 30.3755V20.721V19.0607L23.2513 20.1768L17.9063 25.0303L12.5612 20.1768L11.332 19.0607V20.721V30.3755L1.73505 31.7588V1.78993L11.2794 2.47775Z" fill="url(#paint0_linear_16_79)" stroke="white" stroke-width="1.47011"/>
+<circle cx="29" cy="6" r="6" fill="#FF5C5C" fill-opacity="0.2"/>
+<circle cx="29" cy="6" r="2" fill="#FF5C5C"/>
 <defs>
-<linearGradient id="paint0_linear_2_6" x1="16.9063" y1="0" x2="16.9063" y2="31.6074" gradientUnits="userSpaceOnUse">
+<linearGradient id="paint0_linear_16_79" x1="17.9063" y1="1" x2="17.9063" y2="32.6074" gradientUnits="userSpaceOnUse">
 <stop stop-color="white" stop-opacity="0.7"/>
 <stop offset="1" stop-color="white" stop-opacity="0"/>
 </linearGradient>
