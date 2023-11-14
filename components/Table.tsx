@@ -1,14 +1,19 @@
-import styles from './Table.module.scss'
-import styleBuilder from '@/utils/styleBuilder'
-import { Table } from '@/utils/types'
-import Row from '@/components/Row'
+import styles from './Table.module.scss';
+import styleBuilder from '@/utils/styleBuilder';
+import { Column } from '@/utils/types';
+import Row from '@/components/Row';
 
-export default function Table({columns, data}) {
+type TableProps = {
+  columns: Array<Column>;
+  data: Array<any>;
+};
 
-  const columnGap = 16
-  const numCols = columns.length
-  const colWidths = columns.map(col => `calc((100% - (${numCols} - 1) * ${columnGap}px) * ${col.proportion})`)
-  const gridTemplateColumns = colWidths.reduce((str, width) => str + ' ' + width)
+export default function Table({ columns, data }: TableProps) {
+
+  const columnGap = 16;
+  const numCols = columns.length;
+  const colWidths = columns.map(col => `calc((100% - (${numCols} - 1) * ${columnGap}px) * ${col.proportion})`);
+  const gridTemplateColumns = colWidths.reduce((str, width) => str + ' ' + width);
 
   return (
     <div className={styles.container}>
@@ -26,5 +31,5 @@ export default function Table({columns, data}) {
         {data.map((row, index) => <Row key={index} columns={columns} row={row} columnGap={columnGap} numCols={numCols} colWidths={colWidths} gridTemplateColumns={gridTemplateColumns} />)}
       </div>
     </div>
-  )
+  );
 }

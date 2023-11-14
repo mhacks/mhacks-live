@@ -6,10 +6,10 @@ import { useState, useEffect } from 'react';
 import differenceInSeconds from 'date-fns/differenceInSeconds';
 import format from 'format-duration';
 import QuickLink from '@/components/QuickLink';
-import Table from '@/components/Table'
-import { scheduleCols, schedule} from '@/utils/data'
+import Table from '@/components/Table';
+import { scheduleCols, schedule } from '@/utils/data';
 import styles from './page.module.scss';
-import DownChevron from '@/public/icons/DownChevron.svg'
+import DownChevron from '@/public/icons/downChevron.svg';
 
 const quickLinks = [
   {

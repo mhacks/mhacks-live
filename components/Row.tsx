@@ -1,16 +1,16 @@
-import styles from './Row.module.scss'
-import { Column } from '@/utils/types'
-import { parse } from 'date-fns'
-import format from 'date-fns/format'
+import styles from './Row.module.scss';
+import { Column } from '@/utils/types';
+import { parse } from 'date-fns';
+import format from 'date-fns/format';
 
 type RowProps = {
-  columns: Column
-  row: Array<any>
-  columnGap: number
-  numCols: number
-  colWidths: Array<number>
-  gridTemplateColumns: string
-}
+  columns: Array<Column>;
+  row: any;
+  columnGap: number;
+  numCols: number;
+  colWidths: Array<string>;
+  gridTemplateColumns: string;
+};
 
 export default function Row({
   columns,
@@ -29,10 +29,10 @@ export default function Row({
       }}
     >
       {columns.map((col) => {
-        const value = col.name === 'Time' ? format(new Date(row[col.name]), "H:mm aaa, MMM do") : row[col.name]
-        return <p key={col.name}>{value}</p>
+        const value = col.name === 'Time' ? format(new Date(row[col.name]), "H:mm aaa, MMM do") : row[col.name];
+        return <p key={col.name}>{value}</p>;
       }
       )}
     </div>
-  )
+  );
 }
