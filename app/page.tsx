@@ -42,13 +42,14 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <div className={styles.hero}>
+        <div className={styles.heroBGImg}></div>
         <div className={styles.countdown}>
           <p className={styles.numerials}>{duration}</p>
           <p className={styles.until}>Until Hacking Begins!</p>
         </div>
         <div className={styles.quickLinks}>
           {quickLinks.map(quickLink => (
-            <QuickLink key={quickLink.text} iconPath={quickLink.iconPath} text={quickLink.text} href={quickLink.href} />
+            <QuickLink key={quickLink.text} iconPath={quickLink.iconPath} text={quickLink.text} href={quickLink.href} color={'purple'} />
           ))}
         </div>
       </div>

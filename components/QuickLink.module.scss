@@ -4,7 +4,6 @@
   align-items: center;
   gap: 16px;
   text-decoration: none;
-  color: var(--dark-purple);
   transition: transform 0.2s;
 
   img {
@@ -15,5 +14,13 @@
   &:hover {
     text-decoration: underline;
     transform: translateY(-4px);
+  }
+
+  .purple {
+    color: var(--dark-purple);
+  }
+
+  .white {
+    color: #ffffff;
   }
 }
