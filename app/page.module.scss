@@ -21,6 +21,8 @@
 
   .hero {
     height: calc(80vh - 72px);
+    min-height: 512px;
+    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -28,8 +30,18 @@
     gap: 128px;
     background: linear-gradient(#fde0ff, var(--light-purple));
 
-    @media (max-width: 500px) {
+    @media (max-width: 700px) {
       gap: 64px;
+    }
+
+    .heroBGImg {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background: url('/heroBGImg.svg');
+      background-position: center;
+      background-size: cover;
+      @include fade-with-delay(0s);
     }
 
     .countdown {
@@ -43,7 +55,7 @@
         font-variant-numeric: tabular-nums;
         color: var(--dark-purple);
 
-        @media (max-width: 500px) {
+        @media (max-width: 700px) {
           height: 96px;
           font-size: 64px;
         }
@@ -54,7 +66,7 @@
         // font-family: 'DM Sans';
         color: var(--dark-purple);
 
-        @media (max-width: 500px) {
+        @media (max-width: 700px) {
           font-size: 24px;
         }
       }
@@ -65,7 +77,7 @@
       gap: 48px;
       @include fade-with-delay(1s);
 
-      @media (max-width: 500px) {
+      @media (max-width: 700px) {
         flex-direction: column;
         align-items: center;
         gap: 0;
