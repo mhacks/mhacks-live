@@ -1,7 +1,13 @@
+'use client';
+
 import Image from 'next/image';
 import Link from 'next/link';
+import { useState, useEffect } from 'react';
+import differenceInSeconds from 'date-fns/differenceInSeconds';
+import format from 'format-duration';
 import QuickLink from '@/components/QuickLink';
 import styles from './page.module.scss';
+import { AnyARecord } from 'dns';
 
 const quickLinks = [
   {
@@ -17,11 +23,25 @@ const quickLinks = [
 ];
 
 export default function Home() {
+
+  const [duration, setDuration] = useState<string>('');
+
+  useEffect(() => {
+    const interval = setInterval(() => {
+      const diff = differenceInSeconds(new Date(2023, 10, 19, 12), Date.now()); // diff in seconds
+      setDuration(format(diff * 1000)); // expects milliseconds
+    }, 1000);
+
+    return () => {
+      clearInterval(interval);
+    };
+  }, []);
+
   return (
     <main className={styles.main}>
       <div className={styles.hero}>
         <div className={styles.countdown}>
-          <p className={styles.numerials}>00:00:00</p>
+          <p className={styles.numerials}>{duration}</p>
           <p className={styles.until}>Until Hacking Begins!</p>
         </div>
         <div className={styles.quickLinks}>
