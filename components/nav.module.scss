@@ -5,10 +5,11 @@
   border-bottom: 1px solid var(--dark-purple);
   position: sticky;
   top: 0px;
-  background: var(--purple);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: #ad9ee8d0;
+  backdrop-filter: blur(8px);
   z-index: 1;
 
   .logoMobile {

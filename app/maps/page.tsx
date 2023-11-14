@@ -1,19 +1,5 @@
 import styles from './page.module.scss';
-
-const maps = [
-  {
-    src: 'a'
-  },
-  {
-    src: 'b'
-  },
-  {
-    src: 'c'
-  },
-  {
-    src: 'd'
-  },
-];
+import { maps } from '@/public/data';
 
 export default function Page() {
   return <main className={styles.page}>
