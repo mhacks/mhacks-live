@@ -16,7 +16,11 @@ export const scheduleCols: Array<Column> = [
   },
   {
     name: 'Event',
-    proportion: 0.55,
+    proportion: 0.2,
+  },
+  {
+    name: 'Description',
+    proportion: 0.35,
   },
   {
     name: 'Location',
@@ -29,31 +33,38 @@ export const schedule = [
   {
     Time: new Date('Nov 18, 2023 09:00:00'),
     Event: 'Check-In',
+    Description: 'Description. Details about the event!',
     Location: 'Pierpont Commons',
   },
   {
     Time: new Date('Nov 18, 2023 10:00:00'),
     Event: 'Opening Ceremony',
+    Description: 'Description. Details about the event!',
     Location: 'Location TBD',
   },
   {
     Time: new Date('Nov 18, 2023 11:00:00'),
     Event: 'Team Formation',
+    Description:
+      "Description. Details about the event! This desscription is really long because it's about a workshop",
     Location: 'Location TBD',
   },
   {
     Time: new Date('Nov 18, 2023 12:00:00'),
     Event: 'Hacking Begins',
+    Description: '',
     Location: 'Duderstadt Library',
   },
   {
     Time: new Date('Nov 19, 2023 12:00:00'),
     Event: 'Hacking Ends',
+    Description: '',
     Location: 'Duderstadt Library',
   },
   {
     Time: new Date('Nov 19, 2023 15:00:00'),
     Event: 'Closing Ceremony',
+    Description: 'Description. Details about the event!',
     Location: 'STAMPS Auditorium',
   },
 ]
