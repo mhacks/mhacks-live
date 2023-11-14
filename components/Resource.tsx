@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import styles from './Resource.module.scss';
 
 type ResourceProps = {
@@ -7,9 +8,9 @@ type ResourceProps = {
 };
 
 export default function Resource({ company, logoPath, href }: ResourceProps) {
-  return <a className={styles.container} href={href}>
+  return <Link className={styles.container} href={href}>
     {/* eslint-disable-next-line jsx-a11y/alt-text, @next/next/no-img-element */}
     <img src={logoPath} alt="logo" />
     <h3>{company}</h3>
-  </a >;
+  </Link>;
 }
