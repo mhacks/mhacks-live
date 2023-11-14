@@ -26,6 +26,12 @@
       color: white;
       font-weight: 400;
       text-decoration: none;
+      text-underline-offset: 8px;
+
+      &.active {
+        text-decoration: underline;
+        // font-weight: 700;
+      }
 
       &:hover {
         text-decoration: underline;
