@@ -150,15 +150,15 @@ export const resources: Array<Resource> = [
 export const prizeCols: Array<Column> = [
   {
     name: 'Category',
-    proportion: 0.2,
+    proportion: 0.3,
   },
   {
     name: 'Prize',
-    proportion: 0.6,
+    proportion: 0.4,
   },
   {
     name: 'Awarded By',
-    proportion: 0.2,
+    proportion: 0.3,
   },
 ]
 

@@ -9,6 +9,7 @@ import QuickLink from '@/components/QuickLink';
 import Table from '@/components/Table'
 import { scheduleCols, schedule} from '@/utils/data'
 import styles from './page.module.scss';
+import DownChevron from '@/public/icons/DownChevron.svg'
 
 const quickLinks = [
   {
@@ -54,7 +55,7 @@ export default function Home() {
             <QuickLink key={quickLink.text} iconPath={quickLink.iconPath} text={quickLink.text} href={quickLink.href} color={'purple'} />
           ))}
         </div>
-        <Image className={styles.downChevron} src="/images/downChevron.svg" alt="downChevron" width={32} height={32} priority />
+        <DownChevron className={styles.downChevron} />
       </section>
       <div className={styles.scheduleContainer}>
         <h1 className={styles.heading}>Schedule</h1>
