@@ -86,7 +86,15 @@
   }
 
   .scheduleContainer {
-    height: 1800px;
+    padding: 64px 128px;
     background: white;
+
+    .heading {
+      margin-bottom: 16px;
+    }
+
+    @media (max-width: 700px) {
+      padding: 64px 24px;
+    }
   }
 }

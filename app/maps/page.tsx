@@ -1,5 +1,5 @@
 import styles from './page.module.scss';
-import { maps } from '@/public/data';
+import { maps } from '@/utils/data';
 
 export const metadata = {
   title: "Maps - MHacks Live"

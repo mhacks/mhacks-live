@@ -1,0 +1,20 @@
+.container {
+  .tableHeader {
+    // margin: 16px 0;
+    display: grid;
+
+    .colName {
+      color: var(--text-secondary);
+    }
+
+    @media (max-width: 1000px) {
+      display: none;
+    }
+  }
+
+  .rowContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+}

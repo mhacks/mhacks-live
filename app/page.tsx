@@ -6,6 +6,8 @@ import { useState, useEffect } from 'react';
 import differenceInSeconds from 'date-fns/differenceInSeconds';
 import format from 'format-duration';
 import QuickLink from '@/components/QuickLink';
+import Table from '@/components/Table'
+import { scheduleCols, schedule} from '@/utils/data'
 import styles from './page.module.scss';
 
 const quickLinks = [
@@ -39,6 +41,8 @@ export default function Home() {
     };
   }, []);
 
+  console.log('typeof schedule[0].Time', typeof schedule[0].Time)
+
   return (
     <main className={styles.main}>
       <section className={styles.hero}>
@@ -53,7 +57,10 @@ export default function Home() {
           ))}
         </div>
       </section>
-      <section className={styles.scheduleContainer}></section>
+      <div className={styles.scheduleContainer}>
+        <h1 className={styles.heading}>Schedule</h1>
+        <Table columns={scheduleCols} data={schedule} />
+      </div>
     </main>
   );
 }

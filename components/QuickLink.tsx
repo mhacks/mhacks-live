@@ -12,7 +12,7 @@ type QuickLinkProps = {
 export default function QuickLink({ iconPath, text, href, color }: QuickLinkProps) {
   return (
     <Link className={styles.container} href={href} target="_blank">
-      <Image src={iconPath} width={48} height={48} alt="icon"></Image>
+      <Image priority src={iconPath} width={48} height={48} alt="icon"></Image>
       <h3 className={styles[color]}>{text}</h3>
     </Link>
   );

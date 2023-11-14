@@ -1,5 +1,5 @@
 import styles from './page.module.scss';
-import { resources } from '@/public/data';
+import { resources } from '@/utils/data';
 import Resource from '@/components/Resource';
 
 export const metadata = {
