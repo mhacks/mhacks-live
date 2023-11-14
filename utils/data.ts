@@ -146,3 +146,65 @@ export const resources: Array<Resource> = [
 ]
 
 /* ================================ END EDIT RESOURCES ================================ */
+
+export const prizeCols: Array<Column> = [
+  {
+    name: 'Category',
+    proportion: 0.2,
+  },
+  {
+    name: 'Prize',
+    proportion: 0.6,
+  },
+  {
+    name: 'Awarded By',
+    proportion: 0.2,
+  },
+]
+
+/* ================================ EDIT PRIZES ================================ */
+
+export const prizes = [
+  {
+    Category: '1st Place Hack',
+    Prize: 'A Pat on the Back',
+    'Awarded By': 'MHacks',
+  },
+  {
+    Category: '1st Place Hack',
+    Prize: 'A Pat on the Back',
+    'Awarded By': 'MHacks',
+  },
+  {
+    Category: '1st Place Hack',
+    Prize: 'A Pat on the Back',
+    'Awarded By': 'MHacks',
+  },
+  {
+    Category: '1st Place Hack',
+    Prize: 'A Pat on the Back',
+    'Awarded By': 'MHacks',
+  },
+  {
+    Category: '1st Place Hack',
+    Prize: 'A Pat on the Back',
+    'Awarded By': 'MHacks',
+  },
+  {
+    Category: '1st Place Hack',
+    Prize: 'A Pat on the Back',
+    'Awarded By': 'MHacks',
+  },
+  {
+    Category: '1st Place Hack',
+    Prize: 'A Pat on the Back',
+    'Awarded By': 'MHacks',
+  },
+  {
+    Category: '1st Place Hack',
+    Prize: 'A Pat on the Back',
+    'Awarded By': 'MHacks',
+  },
+]
+
+/* ================================ END EDIT PRIZES ================================ */
