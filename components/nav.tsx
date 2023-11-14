@@ -8,8 +8,8 @@ const links = [
     href: '/'
   },
   {
-    text: 'Map',
-    href: '/map'
+    text: 'Maps',
+    href: '/maps'
   },
   {
     text: 'Resources',

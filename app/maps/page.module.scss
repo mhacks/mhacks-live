@@ -1,0 +1,25 @@
+.page {
+  padding: 64px 128px;
+  display: grid;
+  grid-template-columns: repeat(2, calc(50% - 12px));
+  grid-template-rows: repeat(2, auto);
+  row-gap: 24px;
+  column-gap: 24px;
+  background: var(--light-purple);
+
+  @media (max-width: 1400px) {
+    grid-template-columns: repeat(1, auto);
+    grid-template-rows: repeat(4, auto);
+  }
+
+  @media (max-width: 700px) {
+    padding: 64px 24px;
+  }
+
+  .map {
+    width: 100%;
+    aspect-ratio: 1;
+    border-radius: 8px;
+    background: white;
+  }
+}
