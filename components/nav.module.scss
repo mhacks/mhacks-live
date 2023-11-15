@@ -40,10 +40,12 @@
     @media (max-width: 800px) {
 
       &.hidden {
-        display: none;
+        max-height: 0;
+        border-bottom: none;
       }
 
       width: 100dvw;
+      max-height: 600px;
       border-bottom: 1px solid var(--dark-purple);
       position: absolute;
       top: 72px;
@@ -52,6 +54,9 @@
       gap: 0px;
       background: #ad9ee8d0;
       backdrop-filter: blur(8px);
+      overflow: hidden;
+      transition: max-height 0.2s linear,
+      border 0.5s;
 
       a {
         width: 100%;
@@ -81,13 +86,5 @@
 
   @media (max-width: 800px) {
     padding: 0px 24px !important;
-
-    .logo {
-      display: none;
-    }
-
-    .logoMobile {
-      display: block !important;
-    }
   }
 }
