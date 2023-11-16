@@ -1,5 +1,3 @@
-import Image from 'next/image';
-import Link from 'next/link';
 import QuickLink from '@/components/QuickLink';
 import Table from '@/components/Table';
 import { scheduleCols, schedule } from '@/utils/data';
@@ -9,19 +7,23 @@ import DownChevron from '@/public/icons/downChevron.svg';
 
 const quickLinks = [
   {
-    iconPath: '/images/slack.png',
+    iconPath: '/images/slack.svg',
     text: 'MHacks Slack',
     href: ''
   },
   {
-    iconPath: '/images/devpost.png',
+    iconPath: '/images/mhacks.svg',
+    text: 'Hacker Handbook',
+    href: ''
+  },
+  {
+    iconPath: '/images/devpost.svg',
     text: 'Devpost Submission',
     href: ''
   }
 ];
 
 export default function Home() {
-  console.log('testing');
   return (
     <main className={styles.main}>
       <section className={styles.hero}>
