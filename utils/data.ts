@@ -264,7 +264,7 @@ export const prizes = [
   {
     Category: '2nd Place Hack',
     Prize: 'Sony WH-CH720N Bluetooth Headphones',
-    'Awarded By': 'BNY Mellon & MHacks',
+    'Awarded By': 'BNY Mellon',
   },
   {
     Category: '3rd Place Hack',
