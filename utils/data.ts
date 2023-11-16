@@ -277,6 +277,52 @@ export const prizes = [
     Prize: '$125 Visa Gift Card Per Teammate',
     'Awarded By': 'Grainger',
   },
+  {
+    Category: 'Best use of Google Cloud',
+    Prize: 'Google Cloud Backpack',
+    'Awarded By': 'MLH',
+  },
+  {
+    Category: 'Hardware Lab - Presented by Digi-Key',
+    Prize: 'GitHub Swag',
+    'Awarded By': 'MLH',
+  },
+  {
+    Category: 'Most Creative use of Github',
+    Prize: 'Free .tech Domain Name For Life',
+    'Awarded By': 'MLH',
+  },
+  {
+    Category: 'Best use of MongoDB Atlas',
+    Prize: 'M5GO Starter Kit',
+    'Awarded By': 'MLH',
+  },
+  {
+    Category: 'Best use of Streamlit',
+    Prize: 'Surprise!',
+    'Awarded By': 'MLH',
+  },
+  {
+    Category: 'Best use of Kintone',
+    Prize: 'Breadboard IoT Kit',
+    'Awarded By': 'MLH',
+  },
+  {
+    Category: 'Most Innovative Startup Idea',
+    Prize: 'MLH-Exclusive Google Backpack',
+    'Awarded By': 'MLH',
+  },
+  {
+    Category: 'Best use of Hedera',
+    Prize: 'Mechanical Keyboard',
+    'Awarded By': 'MLH',
+  },
+  {
+    Category: 'Best use of Flow',
+    Prize: '$200 FLOW Token',
+    'Awarded By': 'MLH',
+  }
+  
 ]
 
 /* ================================ END EDIT PRIZES ================================ */
