@@ -43,63 +43,31 @@ export const schedule = [
     Location: 'Location TBD',
   },
   {
-    Time: new Date('Nov 18, 2023 11:00:00'),
+    Time: new Date('Nov 18, 2023 11:30:00'),
     Event: 'Team Formation',
     Description:
       "Description. Details about the event! This desscription is really long because it's about a workshop",
     Location: 'Location TBD',
   },
   {
-    Time: new Date('Nov 18, 2023 12:00:00'),
+    Time: new Date('Nov 18, 2023 11:30:00'),
     Event: 'Hacking Begins',
     Description: '',
     Location: 'Duderstadt Library',
   },
+    /*ADD LUNCH*/
+/* ADD WORKSHOPS */
+    /*ADD DINNER*/
   {
-    Time: new Date('Nov 19, 2023 12:00:00'),
+    Time: new Date('Nov 19, 2023 11:30:00'),
     Event: 'Hacking Ends',
     Description: '',
     Location: 'Duderstadt Library',
   },
+  /*ADD BRUNCH*/
+  /*ADD JUDGING*/
   {
-    Time: new Date('Nov 19, 2023 15:00:00'),
-    Event: 'Closing Ceremony',
-    Description: 'Description. Details about the event!',
-    Location: 'STAMPS Auditorium',
-  },
-  {
-    Time: new Date('Nov 18, 2023 09:00:00'),
-    Event: 'Check-In',
-    Description: 'Description. Details about the event!',
-    Location: 'Pierpont Commons',
-  },
-  {
-    Time: new Date('Nov 18, 2023 10:00:00'),
-    Event: 'Opening Ceremony',
-    Description: 'Description. Details about the event!',
-    Location: 'Location TBD',
-  },
-  {
-    Time: new Date('Nov 18, 2023 11:00:00'),
-    Event: 'Team Formation',
-    Description:
-      "Description. Details about the event! This desscription is really long because it's about a workshop",
-    Location: 'Location TBD',
-  },
-  {
-    Time: new Date('Nov 18, 2023 12:00:00'),
-    Event: 'Hacking Begins',
-    Description: '',
-    Location: 'Duderstadt Library',
-  },
-  {
-    Time: new Date('Nov 19, 2023 12:00:00'),
-    Event: 'Hacking Ends',
-    Description: '',
-    Location: 'Duderstadt Library',
-  },
-  {
-    Time: new Date('Nov 19, 2023 15:00:00'),
+    Time: new Date('Nov 19, 2023 2:30:00'),
     Event: 'Closing Ceremony',
     Description: 'Description. Details about the event!',
     Location: 'STAMPS Auditorium',
