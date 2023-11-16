@@ -16,19 +16,21 @@ export const scheduleCols: Array<Column> = [
   },
   {
     name: 'Event',
-    proportion: 0.2,
+    proportion: 0.3,
   },
   {
     name: 'Description',
-    proportion: 0.35,
+    proportion: 0.3,
   },
   {
     name: 'Location',
-    proportion: 0.25,
+    proportion: 0.2,
   },
 ]
 
 /* ================================ EDIT SCHEDULE ================================ */
+// TIMES IN 24-HOUR FORMAT
+
 export const schedule = [
   {
     Time: new Date('Nov 18, 2023 09:00:00'),
@@ -149,7 +151,7 @@ export const schedule = [
     Location: 'Duderstadt Center',
   },
   {
-    Time: new Date('Nov 19, 2023 2:30:00'),
+    Time: new Date('Nov 19, 2023 14:30:00'),
     Event: 'Closing Ceremony',
     Description: 'Description. Details about the event!',
     Location: 'STAMPS Auditorium',
