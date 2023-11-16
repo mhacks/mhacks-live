@@ -168,16 +168,13 @@ type Map = {
 
 export const maps: Array<Map> = [
   {
-    src: 'a',
+    src: '/images/maps/grove.png',
   },
   {
-    src: 'b',
+    src: '/images/maps/dude.png',
   },
   {
-    src: 'c',
-  },
-  {
-    src: 'd',
+    src: '/images/maps/parking.png',
   },
 ]
 

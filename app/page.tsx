@@ -14,7 +14,7 @@ const quickLinks = [
   {
     iconPath: '/images/mhacks.svg',
     text: 'Hacker Handbook',
-    href: ''
+    href: '/hackerHandbook.pdf'
   },
   {
     iconPath: '/images/devpost.svg',

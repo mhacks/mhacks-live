@@ -2,7 +2,6 @@
   padding: 64px 128px;
   display: grid;
   grid-template-columns: repeat(2, calc(50% - 12px));
-  grid-template-rows: repeat(2, auto);
   row-gap: 24px;
   column-gap: 24px;
   background: var(--pale-purple);
@@ -21,5 +20,9 @@
     aspect-ratio: 1;
     border-radius: 8px;
     background: white;
+
+    &:hover {
+      cursor: zoom-in;
+    }
   }
 }
