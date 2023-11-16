@@ -15,4 +15,10 @@
     text-decoration: underline;
     transform: translateY(-4px);
   }
+
+  .logo {
+    height: 128px;
+    max-width: 100%;
+    object-fit: contain;
+  }
 }
