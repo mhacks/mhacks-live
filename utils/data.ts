@@ -59,92 +59,94 @@ export const schedule = [
     Time: new Date('Nov 18, 2023 12:30:00'),
     Event: 'Lunch',
     Description: '',
-    Location: 'MDining'
+    Location: 'MDining',
   },
   {
     Time: new Date('Nov 18, 2023 14:00:00'),
     Event: 'Workshop: Organization with Notion',
     Description: 'With Notion',
-    Location: 'Design Lab 2'
+    Location: 'Design Lab 2',
   },
   {
     Time: new Date('Nov 18, 2023 15:00:00'),
     Event: 'Workshop: How to Start a Startup',
     Description: 'With Telora',
-    Location: 'Design Lab 2'
+    Location: 'Design Lab 2',
   },
   {
     Time: new Date('Nov 18, 2023 16:00:00'),
-    Event: 'Workshop: How to Overcome Imposter Syndrome in the Recruitment Process',
+    Event:
+      'Workshop: How to Overcome Imposter Syndrome in the Recruitment Process',
     Description: 'With Uber',
-    Location: 'Design Lab 2'
+    Location: 'Design Lab 2',
   },
   {
     Time: new Date('Nov 18, 2023 17:00:00'),
     Event: 'Workshop: How to Become a 10x Developer Using the Terminal',
     Description: 'With Warp',
-    Location: 'Design Lab 2'
+    Location: 'Design Lab 2',
   },
   {
     Time: new Date('Nov 18, 2023 18:00:00'),
-    Event: 'Workshop: How to Start a Company, Raise a Million Dollars and Get Your First 1000 Users',
+    Event:
+      'Workshop: How to Start a Company, Raise a Million Dollars and Get Your First 1000 Users',
     Description: 'Jam.dev',
-    Location: 'Design Lab 2'
+    Location: 'Design Lab 2',
   },
   {
     Time: new Date('Nov 18, 2023 19:00:00'),
     Event: 'Dinner',
     Description: 'Cottage Inn',
-    Location: 'Bob and Betty Beyster Building Atrium'
+    Location: 'Bob and Betty Beyster Building Atrium',
   },
   {
     Time: new Date('Nov 18, 2023 21:00:00'),
     Event: 'Workshop: Intro to Large Language Models',
     Description: 'Michigan Data Science Team',
-    Location: 'Design Lab 2'
+    Location: 'Design Lab 2',
   },
   {
     Time: new Date('Nov 18, 2023 22:00:00'),
     Event: 'Workshop: Intro to Web Dev',
     Description: 'Michigan Hackers',
-    Location: 'Design Lab 2'
+    Location: 'Design Lab 2',
   },
   {
     Time: new Date('Nov 18, 2023 23:00:00'),
     Event: 'Workshop: Intro to Blockchain and On-chain Data',
     Description: 'College Dao',
-    Location: 'Design Lab 2'
+    Location: 'Design Lab 2',
   },
   {
     Time: new Date('Nov 19, 2023 00:00:00'),
     Event: 'Workshop: 0 to 1 for Startups',
     Description: 'Tour.Video(YC S21)',
-    Location: 'Design Lab 2'
+    Location: 'Design Lab 2',
   },
 
-    /*ADD LUNCH*/
-/* ADD WORKSHOPS */
-    /*ADD DINNER*/
+  /*ADD LUNCH*/
+  /* ADD WORKSHOPS */
+  /*ADD DINNER*/
   {
     Time: new Date('Nov 19, 2023 10:00:00'),
     Event: 'Brunch',
     Decription: 'Panera and Sams Club',
-    Location: 'Bob and Better Beyster Building Atrium'
-  }, 
+    Location: 'Bob and Better Beyster Building Atrium',
+  },
   {
     Time: new Date('Nov 19, 2023 11:30:00'),
     Event: 'Hacking Ends',
     Description: '',
     Location: 'Duderstadt Library',
   },
-  
+
   /*ADD BRUNCH*/
   /*ADD JUDGING*/
   {
     Time: new Date('Nov 19, 2023 12:30:00'),
-    Event: 'Judging', 
+    Event: 'Judging',
     Description: '',
-    Location: 'Duderstadt Center'
+    Location: 'Duderstadt Center',
   },
   {
     Time: new Date('Nov 19, 2023 2:30:00'),
@@ -191,7 +193,7 @@ export const resources: Array<Resource> = [
   {
     company: 'Google Cloud',
     logoPath: '/images/companies/googlecloud.png',
-    href: 'public/resources/Google_Cloud.pdf',
+    href: '/resources/Google_Cloud.pdf',
   },
   {
     company: 'Roboflow',
@@ -201,37 +203,37 @@ export const resources: Array<Resource> = [
   {
     company: 'GitHub',
     logoPath: '/images/companies/GitHub-logo.png',
-    href: 'public/resources/Github.pdf',
+    href: '/resources/Github.pdf',
   },
   {
     company: 'MondoDB Atlas',
     logoPath: '/images/companies/MondoDB.png',
-    href: 'public/resources/MongoDB Atlas.pdf',
+    href: '/resources/MongoDB Atlas.pdf',
   },
   {
     company: 'Streamlit',
     logoPath: '/images/companies/streamlit.png',
-    href: 'public/resources/Streamlit.pdf',
+    href: '/resources/Streamlit.pdf',
   },
   {
     company: 'Kintone',
     logoPath: '/images/companies/kintone.png',
-    href: 'public/resources/Kintone.pdf',
+    href: '/resources/Kintone.pdf',
   },
   {
     company: 'MLH',
     logoPath: '/images/companies/MLH.png',
-    href: 'public/resources/Most Innovative Startup Idea.pdf',
+    href: '/resources/Most Innovative Startup Idea.pdf',
   },
   {
     company: 'Flow',
     logoPath: '/images/companies/flow.png',
-    href: 'public/resources/Flow.pdf',
+    href: '/resources/Flow.pdf',
   },
   {
     company: 'Hedera',
     logoPath: '/images/companies/hedera.png',
-    href: 'public/resources/Hedera.pdf',
+    href: '/resources/Hedera.pdf',
   },
 ]
 
@@ -374,8 +376,7 @@ export const prizes = [
     Category: 'Best use of Flow',
     Prize: '$200 FLOW Token',
     'Awarded By': 'MLH',
-  }
-  
+  },
 ]
 
 /* ================================ END EDIT PRIZES ================================ */
