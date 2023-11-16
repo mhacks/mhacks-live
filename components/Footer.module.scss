@@ -15,4 +15,13 @@
     align-items: center;
     padding-left: 16px;
   }
+
+  .link {
+    color: white;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
 }

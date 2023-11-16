@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import styles from './Footer.module.scss';
 import QuickLink from './QuickLink';
 
@@ -20,6 +21,6 @@ export default function Footer() {
     <div className={styles.linkContainer}>
       {footerLinks.map((quickLink) => <QuickLink key={quickLink.text} iconPath={quickLink.iconPath} text={quickLink.text} href={quickLink.href} color={'white'} />)}
     </div>
-    <p>MHacks 16</p>
+    <Link className={styles.link} href="https://www.mhacks.org/" target="_blank">MHacks 16</Link>
   </div>;
 }
