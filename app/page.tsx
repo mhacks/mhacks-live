@@ -9,7 +9,7 @@ const quickLinks = [
   {
     iconPath: '/images/slack.svg',
     text: 'MHacks Slack',
-    href: ''
+    href: 'https://join.slack.com/t/mhacks16/shared_invite/zt-274nbnqlx-8Jh0BpvgDzScSxxdBZYAWA'
   },
   {
     iconPath: '/images/mhacks.svg',
