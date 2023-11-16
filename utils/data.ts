@@ -318,12 +318,12 @@ export const prizes = [
   },
   {
     Category: 'Best Cloud Implementation',
-    Prize: '1st Place Award and Guaranteed Interview',
+    Prize: 'Caterpillar Speakers and Guaranteed Interview',
     'Awarded By': 'Caterpillar',
   },
   {
     Category: 'Best Demonstrated Business Value',
-    Prize: '1st Place Award and Guaranteed Interview',
+    Prize: 'Caterpillar Speakers and Guaranteed Interview',
     'Awarded By': 'Caterpillar',
   },
   {
