@@ -61,7 +61,7 @@ export const schedule = [
     Time: new Date('Nov 18, 2023 12:30:00'),
     Event: 'Lunch',
     Description: '',
-    Location: 'MDining',
+    Location: 'Bob and Betty Beyster Building Atrium',
   },
   {
     Time: new Date('Nov 18, 2023 14:00:00'),

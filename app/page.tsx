@@ -16,11 +16,11 @@ const quickLinks = [
     text: 'Hacker Handbook',
     href: '/hackerHandbook.pdf'
   },
-  {
-    iconPath: '/images/devpost.svg',
-    text: 'Devpost Submission',
-    href: ''
-  }
+  // {
+  //   iconPath: '/images/devpost.svg',
+  //   text: 'Devpost Submission',
+  //   href: ''
+  // }
 ];
 
 export default function Home() {
