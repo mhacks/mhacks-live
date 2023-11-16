@@ -189,44 +189,49 @@ type Resource = {
 
 export const resources: Array<Resource> = [
   {
-    company: 'Company Name',
-    logoPath: '/images/companies/mhacks.png',
-    href: 'https://mhacks.org',
+    company: 'Google Cloud',
+    logoPath: '/images/companies/googlecloud.png',
+    href: 'public/resources/Google_Cloud.pdf',
   },
   {
-    company: 'Company Name',
-    logoPath: '/images/companies/mhacks.png',
-    href: 'https://mhacks.org',
+    company: 'Roboflow',
+    logoPath: '/images/companies/roboflow.png',
+    href: 'https://docs.google.com/forms/d/e/1FAIpQLSfxpB8odH94M-7A4mI1LEaO3TQukVAVZ81KqMLW_stJD5ZG7Q/viewform',
   },
   {
-    company: 'Company Name',
-    logoPath: '/images/companies/mhacks.png',
-    href: 'https://mhacks.org',
+    company: 'GitHub',
+    logoPath: '/images/companies/GitHub-logo.png',
+    href: 'public/resources/Github.pdf',
   },
   {
-    company: 'Company Name',
-    logoPath: '/images/companies/mhacks.png',
-    href: 'https://mhacks.org',
+    company: 'MondoDB Atlas',
+    logoPath: '/images/companies/MondoDB.png',
+    href: 'public/resources/MongoDB Atlas.pdf',
   },
   {
-    company: 'Company Name',
-    logoPath: '/images/companies/mhacks.png',
-    href: 'https://mhacks.org',
+    company: 'Streamlit',
+    logoPath: '/images/companies/streamlit.png',
+    href: 'public/resources/Streamlit.pdf',
   },
   {
-    company: 'Company Name',
-    logoPath: '/images/companies/mhacks.png',
-    href: 'https://mhacks.org',
+    company: 'Kintone',
+    logoPath: '/images/companies/kintone.png',
+    href: 'public/resources/Kintone.pdf',
   },
   {
-    company: 'Company Name',
-    logoPath: '/images/companies/mhacks.png',
-    href: 'https://mhacks.org',
+    company: 'MLH',
+    logoPath: '/images/companies/MLH.png',
+    href: 'public/resources/Most Innovative Startup Idea.pdf',
   },
   {
-    company: 'Company Name',
-    logoPath: '/images/companies/mhacks.png',
-    href: 'https://mhacks.org',
+    company: 'Flow',
+    logoPath: '/images/companies/flow.png',
+    href: 'public/resources/Flow.pdf',
+  },
+  {
+    company: 'Hedera',
+    logoPath: '/images/companies/hedera.png',
+    href: 'public/resources/Hedera.pdf',
   },
 ]
 
