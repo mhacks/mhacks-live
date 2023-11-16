@@ -1,0 +1,16 @@
+@keyframes fade-in {
+  from {
+    transform: translateY(4px);
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@mixin fade-with-delay($delay) {
+  opacity: 0;
+  animation: fade-in 0.5s forwards;
+  animation-delay: $delay;
+}

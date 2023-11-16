@@ -1,0 +1,27 @@
+@use '/styles/_animations';
+
+.countdown {
+  text-align: center;
+  @include animations.fade-with-delay(0.5s);
+
+  .numerials {
+    height: 176px;
+    font-size: 128px;
+    font-variant-numeric: tabular-nums;
+    color: var(--dark-purple);
+
+    @media (max-width: 700px) {
+      height: 96px;
+      font-size: 64px;
+    }
+  }
+
+  .until {
+    font-size: 32px;
+    color: var(--dark-purple);
+
+    @media (max-width: 700px) {
+      font-size: 24px;
+    }
+  }
+}

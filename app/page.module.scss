@@ -1,19 +1,4 @@
-@keyframes fade-in {
-  from {
-    transform: translateY(4px);
-    opacity: 0;
-  }
-
-  to {
-    opacity: 1;
-  }
-}
-
-@mixin fade-with-delay($delay) {
-  opacity: 0;
-  animation: fade-in 0.5s forwards;
-  animation-delay: $delay;
-}
+@use '/styles/animations';
 
 
 .main {
@@ -41,41 +26,13 @@
       background: url('/images/heroBGImg.svg');
       background-position: center;
       background-size: cover;
-      @include fade-with-delay(0s);
-    }
-
-    .countdown {
-      text-align: center;
-      @include fade-with-delay(0.5s);
-
-      .numerials {
-        height: 176px;
-        font-size: 128px;
-        // font-weight: 500;
-        font-variant-numeric: tabular-nums;
-        color: var(--dark-purple);
-
-        @media (max-width: 700px) {
-          height: 96px;
-          font-size: 64px;
-        }
-      }
-
-      .until {
-        font-size: 32px;
-        // font-family: 'DM Sans';
-        color: var(--dark-purple);
-
-        @media (max-width: 700px) {
-          font-size: 24px;
-        }
-      }
+      @include animations.fade-with-delay(0s);
     }
 
     .quickLinks {
       display: flex;
       gap: 48px;
-      @include fade-with-delay(1s);
+      @include animations.fade-with-delay(1s);
 
       @media (max-width: 700px) {
         flex-direction: column;
@@ -90,7 +47,7 @@
       position: absolute;
       bottom: 24px;
       color: white;
-      @include fade-with-delay(1.5s);
+      @include animations.fade-with-delay(1.5s);
     }
   }
 
