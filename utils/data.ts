@@ -55,17 +55,97 @@ export const schedule = [
     Description: '',
     Location: 'Duderstadt Library',
   },
+  {
+    Time: new Date('Nov 18, 2023 12:30:00'),
+    Event: 'Lunch',
+    Description: '',
+    Location: 'MDining'
+  },
+  {
+    Time: new Date('Nov 18, 2023 14:00:00'),
+    Event: 'Workshop: Organization with Notion',
+    Description: 'With Notion',
+    Location: 'Design Lab 2'
+  },
+  {
+    Time: new Date('Nov 18, 2023 15:00:00'),
+    Event: 'Workshop: How to Start a Startup',
+    Description: 'With Telora',
+    Location: 'Design Lab 2'
+  },
+  {
+    Time: new Date('Nov 18, 2023 16:00:00'),
+    Event: 'Workshop: How to Overcome Imposter Syndrome in the Recruitment Process',
+    Description: 'With Uber',
+    Location: 'Design Lab 2'
+  },
+  {
+    Time: new Date('Nov 18, 2023 17:00:00'),
+    Event: 'Workshop: How to Become a 10x Developer Using the Terminal',
+    Description: 'With Warp',
+    Location: 'Design Lab 2'
+  },
+  {
+    Time: new Date('Nov 18, 2023 18:00:00'),
+    Event: 'Workshop: How to Start a Company, Raise a Million Dollars and Get Your First 1000 Users',
+    Description: 'Jam.dev',
+    Location: 'Design Lab 2'
+  },
+  {
+    Time: new Date('Nov 18, 2023 19:00:00'),
+    Event: 'Dinner',
+    Description: 'Cottage Inn',
+    Location: 'Bob and Betty Beyster Building Atrium'
+  },
+  {
+    Time: new Date('Nov 18, 2023 21:00:00'),
+    Event: 'Workshop: Intro to Large Language Models',
+    Description: 'Michigan Data Science Team',
+    Location: 'Design Lab 2'
+  },
+  {
+    Time: new Date('Nov 18, 2023 22:00:00'),
+    Event: 'Workshop: Intro to Web Dev',
+    Description: 'Michigan Hackers',
+    Location: 'Design Lab 2'
+  },
+  {
+    Time: new Date('Nov 18, 2023 23:00:00'),
+    Event: 'Workshop: Intro to Blockchain and On-chain Data',
+    Description: 'College Dao',
+    Location: 'Design Lab 2'
+  },
+  {
+    Time: new Date('Nov 19, 2023 00:00:00'),
+    Event: 'Workshop: 0 to 1 for Startups',
+    Description: 'Tour.Video(YC S21)',
+    Location: 'Design Lab 2'
+  },
+
     /*ADD LUNCH*/
 /* ADD WORKSHOPS */
     /*ADD DINNER*/
+  {
+    Time: new Date('Nov 19, 2023 10:00:00'),
+    Event: 'Brunch',
+    Decription: 'Panera and Sams Club',
+    Location: 'Bob and Better Beyster Building Atrium'
+  }, 
   {
     Time: new Date('Nov 19, 2023 11:30:00'),
     Event: 'Hacking Ends',
     Description: '',
     Location: 'Duderstadt Library',
   },
+  
   /*ADD BRUNCH*/
   /*ADD JUDGING*/
+  {
+    Time: new Date('Nov 19, 2023 12:30:00'),
+    Event: 'Judging', 
+    Description: '',
+    Location: 'Duderstadt Center'
+  },
   {
     Time: new Date('Nov 19, 2023 2:30:00'),
     Event: 'Closing Ceremony',
