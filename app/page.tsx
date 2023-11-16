@@ -14,7 +14,7 @@ const quickLinks = [
   {
     iconPath: '/images/mhacks.svg',
     text: 'Hacker Handbook',
-    href: '/hackerHandbook.pdf'
+    href: 'https://docs.google.com/document/d/1Bctq8S86erXi0o5zn7lTpXfpZrO4tAS7Vq2S-ZhpFNk/edit?usp=sharing'
   },
   // {
   //   iconPath: '/images/devpost.svg',
