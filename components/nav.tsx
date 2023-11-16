@@ -35,7 +35,7 @@ export default function Nav() {
 
   return (
     <nav className={styles.nav}>
-      <Link href="/">
+      <Link className={styles.logoLink} href="/">
         <Image
           className={styles.logo}
           priority
