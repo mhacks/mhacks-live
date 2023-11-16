@@ -12,7 +12,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    gap: 128px;
+    gap: 20%;
     background: linear-gradient(#fde0ff, var(--light-purple));
 
     @media (max-width: 800px) {
@@ -42,8 +42,8 @@
     }
 
     .downChevron {
-      width: 32px;
-      height: 32px;
+      width: 40px;
+      height: 40px;
       position: absolute;
       bottom: 24px;
       color: white;
