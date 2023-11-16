@@ -119,16 +119,19 @@ export const schedule = [
     Description: 'College Dao',
     Location: 'Design Lab 2',
   },
+
   {
     Time: new Date('Nov 19, 2023 00:00:00'),
     Event: 'Workshop: 0 to 1 for Startups',
     Description: 'Tour.Video(YC S21)',
     Location: 'Design Lab 2',
   },
-
-  /*ADD LUNCH*/
-  /* ADD WORKSHOPS */
-  /*ADD DINNER*/
+  {
+    Time: new Date('Nov 19, 2023 03:00:00'),
+    Event: 'Cricket World Cup Finals Watch Party',
+    Description: '🏏🔥',
+    Location: 'Design Studio',
+  },
   {
     Time: new Date('Nov 19, 2023 10:00:00'),
     Event: 'Brunch',
@@ -141,9 +144,6 @@ export const schedule = [
     Description: '',
     Location: 'Duderstadt Library',
   },
-
-  /*ADD BRUNCH*/
-  /*ADD JUDGING*/
   {
     Time: new Date('Nov 19, 2023 12:30:00'),
     Event: 'Judging',
