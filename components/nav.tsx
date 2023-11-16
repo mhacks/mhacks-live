@@ -44,14 +44,6 @@ export default function Nav() {
           src="/images/logo.svg"
           alt="logo"
         />
-        <Image
-          className={styles.logoMobile}
-          priority
-          width={36}
-          height={36}
-          src="/images/logoMobile.svg"
-          alt="logo"
-        />
       </Link>
       <div className={styleBuilder([styles.links, [styles.hidden, !menuOpen]])}>
         {links.map((link) => (
