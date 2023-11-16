@@ -136,7 +136,7 @@ export const schedule = [
     Location: 'Design Lab 2',
   },
   {
-    Time: new Date('Nov 19, 2023 03:00:00'),
+    Time: new Date('Nov 19, 2023 03:30:00'),
     Event: 'Cricket World Cup Finals Watch Party',
     Description: '🏏🔥',
     Location: 'Design Studio',
