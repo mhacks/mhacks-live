@@ -8,7 +8,10 @@ export const metadata = {
 
 export default function Page() {
   return <main className={styles.page}>
-    {/* eslint-disable-next-line @next/next/no-img-element */}
-    {maps.map(map => <Link key={map.src} href={map.src} target="_blank"><img className={styles.map} src={map.src} alt="map" /></Link>)}
+    <h1 className={styles.heading}>Maps</h1>
+    <div className={styles.mapContainer}>
+      {/* eslint-disable-next-line @next/next/no-img-element */}
+      {maps.map(map => <Link key={map.src} href={map.src} target="_blank"><img className={styles.map} src={map.src} alt="map" /></Link>)}
+    </div>
   </main>;
 };
