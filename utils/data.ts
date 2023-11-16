@@ -7,6 +7,15 @@
  * lines to modify when editing data.
  */
 
+/* ================================ EDIT ANNOUNCEMENT BANNER ================================ */
+
+export const announcement = {
+  text: '', // announcement banner will be displayed if text is not an empty string
+  link: '', // link is optional
+}
+
+/* ================================ END EDIT ANNOUNCEMENT BANNER ================================ */
+
 import { Column } from '@/utils/types'
 
 export const scheduleCols: Array<Column> = [

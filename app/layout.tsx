@@ -2,8 +2,11 @@ import type { Metadata } from 'next';
 import { Outfit } from 'next/font/google';
 import styleBuilder from '@/utils/styleBuilder';
 import './globals.scss';
+import Banner from '@/components/Banner';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
+import styles from './layout.module.scss';
+import { announcement } from '@/utils/data';
 
 const outfit = Outfit({ subsets: ['latin'], weight: 'variable' });
 
@@ -19,7 +22,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={styleBuilder([outfit.className])}>
-        <Nav />
+        <div className={styles.stickyTop}>
+          {announcement.text && <Banner text={announcement.text} link={announcement.link} />}
+          <Nav />
+        </div>
         {children}
         <Footer />
       </body>
