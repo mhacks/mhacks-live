@@ -4,6 +4,7 @@ import { Outfit } from 'next/font/google';
 import styleBuilder from '@/utils/styleBuilder';
 import './globals.scss';
 import Banner from '@/components/Banner';
+import ConsolePrint from '@/components/ConsolePrint';
 import Nav from '@/components/Nav';
 import Footer from '@/components/Footer';
 import styles from './layout.module.scss';
@@ -29,6 +30,7 @@ export default function RootLayout({
         </div>
         {children}
         <Footer />
+        <ConsolePrint />
       </body>
     </html>
   );
