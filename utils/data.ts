@@ -220,6 +220,12 @@ export const resources: Array<Resource> = [
     href: '/resources/optiMize.pdf',
   },
   {
+    company: 'Michigan ITS',
+    logoPath: '/images/companies/umich_its.png',
+    href: '/resources/UMich ITS.pdf',
+  },
+
+  {
     company: 'GitHub',
     logoPath: '/images/companies/GitHub-logo.png',
     href: '/resources/Github.pdf',
