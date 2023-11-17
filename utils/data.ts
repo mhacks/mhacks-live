@@ -56,8 +56,7 @@ export const schedule = [
   {
     Time: new Date('Nov 18, 2023 11:30:00'),
     Event: 'Team Formation',
-    Description:
-      " This desscription is really long because it's about a workshop",
+    Description: '',
     Location: 'Design Lab 2',
   },
   {
