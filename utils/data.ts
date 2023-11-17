@@ -56,7 +56,8 @@ export const schedule = [
   {
     Time: new Date('Nov 18, 2023 11:30:00'),
     Event: 'Team Formation',
-    Description: '',
+    Description:
+      "Don't have a team yet? Join the team formation event to discuss ideas you'd like to hack on, and meet other hackers!",
     Location: 'Design Lab 2',
   },
   {
@@ -99,26 +100,27 @@ export const schedule = [
   {
     Time: new Date('Nov 18, 2023 18:00:00'),
     Event:
-      'Workshop: How to Start a Company, Raise a Million Dollars and Get Your First 1000 Users',
-    Description: 'Jam.dev',
+      'Workshop: How to Start a Company, Raise a Million Dollars, and Get Your First 1000 Users',
+    Description: 'With Jam.dev',
     Location: 'Design Lab 2',
   },
   {
     Time: new Date('Nov 18, 2023 19:00:00'),
     Event: 'Dinner',
-    Description: 'Cottage Inn',
+    Description: 'Cottage Inn Pizza',
     Location: 'Bob and Betty Beyster Building Atrium',
   },
   {
     Time: new Date('Nov 18, 2023 20:00:00'),
     Event: 'MLH Cup Stack',
-    Description: '',
+    Description:
+      'Take some time off of hacking to relax with our fun cup stack challenge.',
     Location: 'Duderstadt Atrium',
   },
   {
     Time: new Date('Nov 18, 2023 21:00:00'),
     Event: 'Workshop: Intro to Large Language Models',
-    Description: 'Michigan Data Science Team',
+    Description: 'With Michigan Data Science Team',
     Location: 'Design Lab 2',
   },
   {
@@ -131,14 +133,14 @@ export const schedule = [
   {
     Time: new Date('Nov 18, 2023 23:00:00'),
     Event: 'Workshop: Intro to Blockchain and On-chain Data',
-    Description: 'College Dao',
+    Description: 'With College Dao',
     Location: 'Design Lab 2',
   },
 
   {
     Time: new Date('Nov 19, 2023 00:00:00'),
     Event: 'Workshop: 0 to 1 for Startups',
-    Description: 'Tour.Video (YC S21)',
+    Description: 'With Tour.Video (YC S21)',
     Location: 'Design Lab 2',
   },
   {
@@ -162,7 +164,7 @@ export const schedule = [
   {
     Time: new Date('Nov 19, 2023 12:30:00'),
     Event: 'Judging',
-    Description: 'Anticipation..',
+    Description: 'Remain at your hacking table.',
     Location: 'Duderstadt Center',
   },
   {
