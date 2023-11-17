@@ -44,21 +44,21 @@ export const schedule = [
   {
     Time: new Date('Nov 18, 2023 09:00:00'),
     Event: 'Check-In',
-    Description: 'Description. Details about the event!',
+    Description: '',
     Location: 'Pierpont Commons',
   },
   {
     Time: new Date('Nov 18, 2023 10:00:00'),
     Event: 'Opening Ceremony',
-    Description: 'Description. Details about the event!',
-    Location: 'Location TBD',
+    Description: '',
+    Location: 'Stamps Auditorium',
   },
   {
     Time: new Date('Nov 18, 2023 11:30:00'),
     Event: 'Team Formation',
     Description:
-      "Description. Details about the event! This desscription is really long because it's about a workshop",
-    Location: 'Location TBD',
+      " This desscription is really long because it's about a workshop",
+    Location: 'Design Lab 2',
   },
   {
     Time: new Date('Nov 18, 2023 11:30:00'),
@@ -111,6 +111,12 @@ export const schedule = [
     Location: 'Bob and Betty Beyster Building Atrium',
   },
   {
+    Time: new Date('Nov 18, 2023 20:00:00'),
+    Event: 'MLH Cup Stack',
+    Description: '',
+    Location: 'Duderstadt Atrium',
+  },
+  {
     Time: new Date('Nov 18, 2023 21:00:00'),
     Event: 'Workshop: Intro to Large Language Models',
     Description: 'Michigan Data Science Team',
@@ -151,19 +157,19 @@ export const schedule = [
     Time: new Date('Nov 19, 2023 11:30:00'),
     Event: 'Hacking Ends',
     Description: '',
-    Location: 'Duderstadt Library',
+    Location: 'Duderstadt Center',
   },
   {
     Time: new Date('Nov 19, 2023 12:30:00'),
     Event: 'Judging',
-    Description: '',
+    Description: 'Anticipation..',
     Location: 'Duderstadt Center',
   },
   {
     Time: new Date('Nov 19, 2023 14:30:00'),
     Event: 'Closing Ceremony',
-    Description: 'Description. Details about the event!',
-    Location: 'STAMPS Auditorium',
+    Description: '',
+    Location: 'Chrysler Center 220',
   },
 ]
 
