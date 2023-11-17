@@ -1,3 +1,4 @@
+import localFont from 'next/font/local';
 import type { Metadata } from 'next';
 import { Outfit } from 'next/font/google';
 import styleBuilder from '@/utils/styleBuilder';
@@ -8,7 +9,7 @@ import Footer from '@/components/Footer';
 import styles from './layout.module.scss';
 import { announcement } from '@/utils/data';
 
-const outfit = Outfit({ subsets: ['latin'], weight: 'variable' });
+const outfit = localFont({ src: '../public/fonts/Outfit-VariableFont_wght.ttf' });
 
 export const metadata: Metadata = {
   title: 'MHacks Live',
