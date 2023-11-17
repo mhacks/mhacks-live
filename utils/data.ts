@@ -138,7 +138,7 @@ export const schedule = [
   {
     Time: new Date('Nov 19, 2023 00:00:00'),
     Event: 'Workshop: 0 to 1 for Startups',
-    Description: 'Tour.Video(YC S21)',
+    Description: 'Tour.Video (YC S21)',
     Location: 'Design Lab 2',
   },
   {
