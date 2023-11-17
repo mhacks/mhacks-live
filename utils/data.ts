@@ -123,8 +123,9 @@ export const schedule = [
   },
   {
     Time: new Date('Nov 18, 2023 22:00:00'),
-    Event: 'Workshop: Intro to Web Dev',
-    Description: 'Michigan Hackers',
+    Event: 'Workshop: Intro to React',
+    Description:
+      'Learn the basics of building frontend web apps in React with Michigan Hackers',
     Location: 'Design Lab 2',
   },
   {
