@@ -215,6 +215,11 @@ export const resources: Array<Resource> = [
     href: 'https://docs.google.com/forms/d/e/1FAIpQLSfxpB8odH94M-7A4mI1LEaO3TQukVAVZ81KqMLW_stJD5ZG7Q/viewform',
   },
   {
+    company: 'optiMize',
+    logoPath: '/images/companies/optimize.png',
+    href: '/resources/optiMize.pdf',
+  },
+  {
     company: 'GitHub',
     logoPath: '/images/companies/GitHub-logo.png',
     href: '/resources/Github.pdf',
