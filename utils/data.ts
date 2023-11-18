@@ -249,7 +249,7 @@ export const resources: Array<Resource> = [
   {
     company: 'Michigan ITS',
     logoPath: '/images/companies/umich_its.png',
-    href: '/resources/UMich ITS.pdf',
+    href: '/resources/UMichITS.pdf',
   },
 
   {
