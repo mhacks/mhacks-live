@@ -258,8 +258,8 @@ export const resources: Array<Resource> = [
     href: '/resources/Github.pdf',
   },
   {
-    company: 'MondoDB Atlas',
-    logoPath: '/images/companies/MondoDB.png',
+    company: 'MongoDB Atlas',
+    logoPath: '/images/companies/MongoDB.png',
     href: '/resources/MongoDB Atlas.pdf',
   },
   {

@@ -6,9 +6,10 @@ import Row from '@/components/Row';
 type TableProps = {
   columns: Array<Column>;
   data: Array<any>;
+  prizes?: boolean;
 };
 
-export default function Table({ columns, data }: TableProps) {
+export default function Table({ columns, data, prizes = false }: TableProps) {
 
   const columnGap = 16;
   const numCols = columns.length;
@@ -28,7 +29,7 @@ export default function Table({ columns, data }: TableProps) {
         {columns.map(col => (<h3 key={col.name} className={styles.colName}>{col.name}</h3>))}
       </div>
       <div className={styles.rowContainer}>
-        {data.map((row, index) => <Row key={index} columns={columns} row={row} columnGap={columnGap} numCols={numCols} colWidths={colWidths} gridTemplateColumns={gridTemplateColumns} />)}
+        {data.map((row, index) => <Row key={index} columns={columns} row={row} columnGap={columnGap} numCols={numCols} colWidths={colWidths} gridTemplateColumns={gridTemplateColumns} prizes={prizes} />)}
       </div>
     </div>
   );

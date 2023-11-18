@@ -1,5 +1,6 @@
 import styles from './Row.module.scss';
 import { Column } from '@/utils/types';
+import styleBuidler from '@/utils/styleBuilder';
 import { parse } from 'date-fns';
 import format from 'date-fns/format';
 
@@ -10,6 +11,7 @@ type RowProps = {
   numCols: number;
   colWidths: Array<string>;
   gridTemplateColumns: string;
+  prizes: boolean;
 };
 
 export default function Row({
@@ -19,10 +21,11 @@ export default function Row({
   numCols,
   colWidths,
   gridTemplateColumns,
+  prizes = false,
 }: RowProps) {
   return (
     <div
-      className={styles.container}
+      className={styleBuidler([[styles.container, !prizes], [styles.prizesContainer, prizes]])}
       style={{
         gridTemplateColumns: gridTemplateColumns,
         columnGap: columnGap,
