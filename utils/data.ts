@@ -335,11 +335,6 @@ export const prizes = [
     'Awarded By': 'Ford Motor Company',
   },
   {
-    Category: 'Best Education Hack',
-    Prize: 'Acer Gaming Monitors',
-    'Awarded By': 'MHacks',
-  },
-  {
     Category: 'Best Game Development Hack',
     Prize: 'Dell Gaming Monitors',
     'Awarded By': 'MHacks',
