@@ -10,7 +10,7 @@ import Footer from '@/components/Footer';
 import styles from './layout.module.scss';
 import { announcement } from '@/utils/data';
 
-const outfit = localFont({ src: '../public/fonts/Outfit-VariableFont_wght.ttf' });
+const outfit = Outfit({ subsets: ['latin'], weights: [100, 200, 300, 400, 500, 600, 700, 800, 900] });
 
 export const metadata: Metadata = {
   title: 'MHacks Live',
