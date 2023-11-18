@@ -29,7 +29,7 @@ export default function Row({
       }}
     >
       {columns.map((col) => {
-        const value = col.name === 'Time' ? format(new Date(row[col.name]), "h:mm aaa, eeee") : row[col.name];
+        const value = col.name === 'Start Time' ? format(new Date(row[col.name]), "h:mm aaa, eeee") : (col.name === 'End Time' ? format(new Date(row[col.name]), "h:mm aaa") : row[col.name]);
         return <p key={col.name}>{value}</p>;
       }
       )}
