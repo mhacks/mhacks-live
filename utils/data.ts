@@ -90,14 +90,14 @@ export const schedule = [
   },
   {
     'Start Time': new Date('Nov 18, 2023 14:00:00'),
-    'End Time': new Date('Nov 18, 2023 14:50:00'),
+    'End Time': new Date('Nov 18, 2023 14:45:00'),
     Event: 'Workshop: Organization with Notion',
     Description: 'With Notion',
     Location: 'Design Lab 2',
   },
   {
     'Start Time': new Date('Nov 18, 2023 16:00:00'),
-    'End Time': new Date('Nov 18, 2023 16:50:00'),
+    'End Time': new Date('Nov 18, 2023 16:45:00'),
     Event:
       'Workshop: How to Overcome Imposter Syndrome in the Recruitment Process',
     Description: 'With Uber',
@@ -105,14 +105,14 @@ export const schedule = [
   },
   {
     'Start Time': new Date('Nov 18, 2023 17:00:00'),
-    'End Time': new Date('Nov 18, 2023 17:50:00'),
+    'End Time': new Date('Nov 18, 2023 17:45:00'),
     Event: 'Workshop: How to Become a 10x Developer Using the Terminal',
     Description: 'With Warp',
     Location: 'Design Lab 2',
   },
   {
     'Start Time': new Date('Nov 18, 2023 18:00:00'),
-    'End Time': new Date('Nov 18, 2023 18:50:00'),
+    'End Time': new Date('Nov 18, 2023 18:45:00'),
     Event:
       'Workshop: How to Start a Company, Raise a Million Dollars, and Get Your First 1000 Users',
     Description: 'With Jam.dev',
@@ -135,14 +135,14 @@ export const schedule = [
   },
   {
     'Start Time': new Date('Nov 18, 2023 21:00:00'),
-    'End Time': new Date('Nov 18, 2023 21:50:00'),
+    'End Time': new Date('Nov 18, 2023 21:45:00'),
     Event: 'Workshop: Intro to Large Language Models',
     Description: 'With Michigan Data Science Team',
     Location: 'Design Lab 2',
   },
   {
     'Start Time': new Date('Nov 18, 2023 22:00:00'),
-    'End Time': new Date('Nov 18, 2023 22:50:00'),
+    'End Time': new Date('Nov 18, 2023 22:45:00'),
     Event: 'Workshop: Intro to React',
     Description:
       'Learn the basics of building frontend web apps in React with Michigan Hackers',
@@ -150,7 +150,7 @@ export const schedule = [
   },
   {
     'Start Time': new Date('Nov 18, 2023 23:00:00'),
-    'End Time': new Date('Nov 18, 2023 23:50:00'),
+    'End Time': new Date('Nov 18, 2023 23:45:00'),
     Event: 'Workshop: Intro to Blockchain and On-chain Data',
     Description: 'With College Dao',
     Location: 'Design Lab 2',
@@ -158,7 +158,7 @@ export const schedule = [
 
   {
     'Start Time': new Date('Nov 19, 2023 00:00:00'),
-    'End Time': new Date('Nov 19, 2023 00:50:00'),
+    'End Time': new Date('Nov 19, 2023 00:45:00'),
     Event: 'Workshop: 0 to 1 for Startups',
     Description: 'With Tour.Video (YC S21)',
     Location: 'Design Lab 2',
