@@ -3,10 +3,12 @@
 import { useState, useEffect } from 'react';
 import differenceInSeconds from 'date-fns/differenceInSeconds';
 import format from 'format-duration';
+import styleBuidler from '@/utils/styleBuilder';
 import styles from './Countdown.module.scss';
 
 export default function Countdown() {
   const [duration, setDuration] = useState<string>('');
+  const [diffInSec, setDiffInSec] = useState<number | null>(null);
 
   const hackingStarts = new Date(2023, 10, 18, 11, 30);
   const hackingEnds = new Date(2023, 10, 19, 11, 30);
@@ -16,6 +18,7 @@ export default function Countdown() {
     const destinationTime = new Date().getTime() > hackingEnds.getTime() ? new Date() : new Date().getTime() > hackingStarts.getTime() ? hackingEnds : hackingStarts;
 
     const diff = differenceInSeconds(destinationTime, Date.now()); // diff in seconds
+    setDiffInSec(diff);
     setDuration(format(diff * 1000)); // expects milliseconds
   };
 
@@ -28,9 +31,13 @@ export default function Countdown() {
     };
   }, []);
 
+  const lessThanHour = (sec: number): boolean => {
+    return sec < 60 * 60 && sec > 0;
+  };
+
   return (
     <div className={styles.countdown}>
-      <p className={styles.numerials}>{duration}</p>
+      <p className={styleBuidler([styles.numerials, [styles.pulse, diffInSec ? lessThanHour(diffInSec) : false]])}>{duration}</p>
       <p className={styles.until}>{untilText}</p>
     </div>
   );

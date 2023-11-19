@@ -126,8 +126,8 @@ export const schedule = [
     Location: 'Bob and Betty Beyster Building Atrium',
   },
   {
-    'Start Time': new Date('Nov 18, 2023 20:00:00'),
-    'End Time': new Date('Nov 18, 2023 20:45:00'),
+    'Start Time': new Date('Nov 18, 2023 20:30:00'),
+    'End Time': new Date('Nov 18, 2023 21:15:00'),
     Event: 'MLH Cup Stack',
     Description:
       'Take some time off of hacking to relax with our fun cup stack challenge.',
