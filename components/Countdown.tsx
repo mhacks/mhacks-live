@@ -11,7 +11,7 @@ export default function Countdown() {
   const [diffInSec, setDiffInSec] = useState<number | null>(null);
 
   const hackingStarts = new Date(2023, 10, 18, 11, 30);
-  const hackingEnds = new Date(2023, 10, 19, 11, 30);
+  const hackingEnds = new Date(2023, 10, 19, 12, 0);
   const untilText = new Date().getTime() > hackingEnds.getTime() ? 'Hacking has ended.' : new Date().getTime() > hackingStarts.getTime() ? 'Until hacking ends!' : 'Until hacking starts!';
 
   const updateDuration = () => {
