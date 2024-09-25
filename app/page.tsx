@@ -9,7 +9,7 @@ const quickLinks = [
   {
     iconPath: '/images/slack.svg',
     text: 'MHacks Slack',
-    href: 'https://join.slack.com/t/mhacks16/shared_invite/zt-274nbnqlx-8Jh0BpvgDzScSxxdBZYAWA'
+    href: 'https://join.slack.com/t/mhacks2024/shared_invite/zt-2r84sb8np-nYm8kil1V8sRcyxJoOqc3g'
   },
   {
     iconPath: '/images/mhacks.svg',
@@ -19,7 +19,7 @@ const quickLinks = [
   {
     iconPath: '/images/devpost.svg',
     text: 'Devpost Submission',
-    href: 'https://mhacks-16.devpost.com/'
+    href: 'https://mhacks-2024.devpost.com/'
   }
 ];
 

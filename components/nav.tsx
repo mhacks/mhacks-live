@@ -17,10 +17,10 @@ const links = [
     text: 'Maps',
     href: '/maps',
   },
-  {
-    text: 'Resources',
-    href: '/resources',
-  },
+  // {
+  //   text: 'Resources',
+  //   href: '/resources',
+  // },
   {
     text: 'Prizes',
     href: '/prizes'

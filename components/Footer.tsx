@@ -13,7 +13,7 @@ export default function Footer() {
     {
       iconPath: '/images/x.svg',
       text: '',
-      href: 'https://twitter.com/mhacks?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor'
+      href: 'https://twitter.com/mhacks'
     }
   ];
 
@@ -21,6 +21,6 @@ export default function Footer() {
     <div className={styles.linkContainer}>
       {footerLinks.map((quickLink) => <QuickLink key={quickLink.text} iconPath={quickLink.iconPath} text={quickLink.text} href={quickLink.href} color={'white'} />)}
     </div>
-    <Link className={styles.link} href="https://www.mhacks.org/" target="_blank">MHacks 16</Link>
+    <Link className={styles.link} href="https://www.mhacks.org/" target="_blank">MHacks 2024</Link>
   </div>;
 }

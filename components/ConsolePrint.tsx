@@ -12,11 +12,11 @@ export default function ConsolePrint() {
         `
         
  ____ ____ ____ ____ ____ ____ ________ ____ ____
-||M |||H |||a |||c |||k |||s |||      |||1 |||6 ||
+||M |||H |||a |||c |||k |||s |||      |||  |||:) ||
 ||__|||__|||__|||__|||__|||__|||______|||__|||__||
 |/__\\|/__\\|/__\\|/__\\|/__\\|/__\\|/______\\|/__\\|/__\\|
 
-Proudly brought to you by The MHacks 16 Team.
+Proudly brought to you by The MHacks 2024 Team.
 
         `
       );
