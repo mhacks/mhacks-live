@@ -12,11 +12,11 @@
 export const announcement = {
   text: '', // announcement banner will be displayed if text is not an empty string
   link: '', // link is optional
-}
+};
 
 /* ================================ END EDIT ANNOUNCEMENT BANNER ================================ */
 
-import { Column } from '@/utils/types'
+import { Column } from '@/utils/types';
 
 export const scheduleCols: Array<Column> = [
   {
@@ -39,7 +39,7 @@ export const scheduleCols: Array<Column> = [
     name: 'Location',
     proportion: 0.15,
   },
-]
+];
 
 /* ================================ EDIT SCHEDULE ================================ */
 // TIMES IN 24-HOUR FORMAT
@@ -136,8 +136,7 @@ export const schedule = [
     'Start Time': new Date('Sep 28, 2024 20:00:00'),
     'End Time': new Date('Sep 28, 2024 20:15:00'),
     Event: 'MLH Event',
-    Description:
-      '',
+    Description: '',
     Location: 'Duderstadt Atrium',
   },
   // {
@@ -205,13 +204,13 @@ export const schedule = [
     Description: '',
     Location: 'CCCB 1420',
   },
-]
+];
 
 /* ================================ END EDIT SCHEDULE ================================ */
 
 type Map = {
-  src: string
-}
+  src: string;
+};
 
 /* ================================ EDIT MAPS ================================ */
 
@@ -225,15 +224,15 @@ export const maps: Array<Map> = [
   {
     src: '/images/maps/parking.png',
   },
-]
+];
 
 /* ================================ END EDIT MAPS ================================ */
 
 type Resource = {
-  company: string
-  logoPath: string
-  href: string
-}
+  company: string;
+  logoPath: string;
+  href: string;
+};
 
 /* ================================ EDIT RESOURCES ================================ */
 
@@ -294,7 +293,7 @@ export const resources: Array<Resource> = [
     logoPath: '/images/companies/hedera.png',
     href: '/resources/Hedera.pdf',
   },
-]
+];
 
 /* ================================ END EDIT RESOURCES ================================ */
 
@@ -311,64 +310,77 @@ export const prizeCols: Array<Column> = [
     name: 'Awarded By',
     proportion: 0.3,
   },
-]
+];
 
 /* ================================ EDIT PRIZES ================================ */
 
 export const prizes = [
   {
+    Category: 'Grand Prize',
+    Prize: '$3,000',
+    'Awarded By': 'MHacks',
+  },
+  {
+    Category: 'Runner Up Prize',
+    Prize: '$1,500',
+    'Awarded By': 'MHacks',
+  },
+  {
     Category: 'Education',
-    Prize: 'TBD',
+    Prize: 'Bose SoundLink Flex Bluetooth Speaker',
     'Awarded By': 'MHacks',
   },
   {
     Category: 'Interactive Media & Gaming',
-    Prize: 'TBD',
+    Prize: 'Dell Gaming Monitor',
     'Awarded By': 'MHacks',
   },
   {
     Category: 'Health',
-    Prize: 'TBD',
+    Prize: 'Whoop wearable fitness tracker',
     'Awarded By': 'MHacks',
   },
   {
     Category: 'Sustainability',
-    Prize: 'TBD',
+    Prize: 'iPad (10th Generation)',
     'Awarded By': 'MHacks',
   },
   {
     Category: 'Accessibility',
-    Prize: 'TBD',
+    Prize: 'Insta360 Link 2 gimbal webcam',
     'Awarded By': 'MHacks',
   },
   {
     Category: 'Optimization',
-    Prize: 'TBD',
+    Prize: 'RayBan Meta  Warfarer Smart Glasses',
     'Awarded By': 'MHacks',
   },
   {
     Category: '1st Place Best Use of Intel AI',
-    Prize: 'AI PC Lenovo Laptop',
+    Prize:
+      '$2500 Intel® Developer Cloud credits + Lenovo Thinkpad X1 Carbon each',
     'Awarded By': 'Intel',
   },
   {
     Category: '2st Place Best Use of Intel AI',
-    Prize: 'TBD',
+    Prize:
+      '$1000 Intel® Developer Cloud credit for each member + Sparkle Intel Arc A770 Titan OC Edition',
     'Awarded By': 'Intel',
   },
   {
     Category: '3st Place Best Use of Intel AI',
-    Prize: 'TBD',
+    Prize:
+      '$500 Intel Developer Cloud credit for each member + Sparkle Intel Arc A750 ORC OC Edition',
     'Awarded By': 'Intel',
   },
   {
     Category: 'Best Developer Tool',
-    Prize: 'TBD',
+    Prize: 'Coming soon',
     'Awarded By': 'Warp',
   },
   {
     Category: 'Best Cloud Implementation',
-    Prize: 'TBD',
+    Prize: 'Wireless earbuds, Magport tri-fold charger',
     'Awarded By': 'CAT Digital',
   },
   {
@@ -383,45 +395,39 @@ export const prizes = [
   },
   {
     Category: 'Best Use of Sonic',
-    Prize: 'TBD',
+    Prize: 'Coming soon',
     'Awarded By': 'Cartesia',
   },
   {
-    Category: 'Best Google AI Breadboard App',
-    Prize: 'TBD',
-    'Awarded By': 'Google',
-  },
-  {
     Category: 'Best App Built on Groq',
-    Prize: 'TBD',
+    Prize: '$500 in credit to our Groq Swag Store',
     'Awarded By': 'Groq',
   },
   {
     Category: 'Best use of MongoDB Atlas',
-    Prize: 'TBD',
+    Prize: 'Coming soon',
     'Awarded By': 'MLH',
   },
   {
     Category: 'Best use of MATLAB',
-    Prize: 'TBD',
+    Prize: 'Coming soon',
     'Awarded By': 'MLH',
   },
   {
     Category: 'Best DEI Hack sponsored by Fidelity',
-    Prize: 'TBD',
+    Prize: 'Coming soon',
     'Awarded By': 'MLH',
   },
   {
     Category: 'Best use of Streamlit',
-    Prize: 'TBD',
+    Prize: 'Coming soon',
     'Awarded By': 'MLH',
   },
   {
     Category: 'Best use of Midnight',
-    Prize: 'TBD',
+    Prize: 'Coming soon',
     'Awarded By': 'MLH',
   },
-  
-]
+];
 
 /* ================================ END EDIT PRIZES ================================ */
