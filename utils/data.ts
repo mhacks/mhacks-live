@@ -334,28 +334,33 @@ export const prizes = [
     'Awarded By': 'Groq',
   },
   {
+    Category: 'Best Use of Roboflow Workflows',
+    Prize: 'Raspberry Pi 5 Dev Kit for each team member (up to 4)',
+    'Awarded By': 'Roboflow',
+  },
+  {
     Category: 'Best use of MongoDB Atlas',
-    Prize: 'Coming soon',
+    Prize: 'M5GO IoT Starter Kit',
     'Awarded By': 'MLH',
   },
   {
     Category: 'Best use of MATLAB',
-    Prize: 'Coming soon',
+    Prize: 'Wireless YoYo Speaker',
     'Awarded By': 'MLH',
   },
   {
     Category: 'Best DEI Hack sponsored by Fidelity',
-    Prize: 'Coming soon',
+    Prize: 'Fidelity Branded Wireless Charger',
     'Awarded By': 'MLH',
   },
   {
     Category: 'Best use of Streamlit',
-    Prize: 'Coming soon',
+    Prize: 'Arduino Tiny ML Kit',
     'Awarded By': 'MLH',
   },
   {
     Category: 'Best use of Midnight',
-    Prize: 'Coming soon',
+    Prize: 'JBL Tune 510BT Wireless Headphones',
     'Awarded By': 'MLH',
   },
 ];
