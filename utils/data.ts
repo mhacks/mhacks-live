@@ -216,10 +216,22 @@ type Map = {
 
 export const maps: Array<Map> = [
   {
-    src: '/images/maps/grove.png',
+    src: '/images/maps/cccb.png',
   },
   {
-    src: '/images/maps/dude.png',
+    src: '/images/maps/north.png',
+  },
+  {
+    src: '/images/maps/pierpont.png',
+  },
+  {
+    src: '/images/maps/dude1.png',
+  },
+  {
+    src: '/images/maps/dude0.png',
+  },
+  {
+    src: '/images/maps/bbb.png',
   },
   {
     src: '/images/maps/parking.png',
