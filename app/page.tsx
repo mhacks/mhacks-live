@@ -12,15 +12,15 @@ const quickLinks = [
     href: 'https://join.slack.com/t/mhacks2024/shared_invite/zt-2r84sb8np-nYm8kil1V8sRcyxJoOqc3g'
   },
   {
-    iconPath: '/images/mhacks.svg',
+    iconPath: '/images/mhacks2024.png',
     text: 'Hacker Handbook',
-    href: 'https://docs.google.com/document/d/1Bctq8S86erXi0o5zn7lTpXfpZrO4tAS7Vq2S-ZhpFNk/edit?usp=sharing'
+    href: 'https://docs.google.com/document/d/1kpIZGN8-MbPODH5jmi3DoAfl-k6LWUxheGCQoeMBP54/edit?usp=sharing'
   },
-  {
-    iconPath: '/images/devpost.svg',
-    text: 'Devpost Submission',
-    href: 'https://mhacks-2024.devpost.com/'
-  }
+  // {
+  //   iconPath: '/images/devpost.svg',
+  //   text: 'Devpost Submission',
+  //   href: 'https://mhacks-2024.devpost.com/',
+  // }
 ];
 
 export default function Home() {
