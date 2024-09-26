@@ -12,7 +12,7 @@ export default function Countdown() {
 
   const hackingStarts = new Date(2024, 8, 28, 11, 30);
   const hackingEnds = new Date(2024, 8, 29, 12, 0);
-  const untilText = new Date().getTime() > hackingEnds.getTime() ? 'Hacking has ended.' : new Date().getTime() > hackingStarts.getTime() ? 'Until hacking ends!' : 'Until hacking starts!';
+  const untilText = new Date().getTime() > hackingEnds.getTime() ? 'Hacking has ended.' : new Date().getTime() > hackingStarts.getTime() ? 'Until hacking ends!' : 'Until hacking begins!';
 
   const updateDuration = () => {
     const destinationTime = new Date().getTime() > hackingEnds.getTime() ? new Date() : new Date().getTime() > hackingStarts.getTime() ? hackingEnds : hackingStarts;

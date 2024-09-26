@@ -39,6 +39,9 @@ export default function Home() {
       <div className={styles.scheduleContainer}>
         <h1 className={styles.heading}>Schedule</h1>
         <Table columns={scheduleCols} data={schedule} />
+        <div className={styles.buttonContainer}>
+            <a className={styles.fullScheduleButton} href="https://docs.google.com/spreadsheets/d/1uPnhST3AS0vcgfrPEJKlkNTkEcdTShoUUnA_M1s7lsw/edit?gid=877663356#gid=877663356">See full schedule</a>
+        </div>
       </div>
     </main>
   );

@@ -46,9 +46,9 @@ export const scheduleCols: Array<Column> = [
 
 export const schedule = [
   {
-    'Start Time': new Date('Sep 28, 2024 08:30:00'),
-    'End Time': new Date('Sep 28, 2024 09:30:00'),
-    Event: 'Check-In',
+    'Start Time': new Date('Sep 28, 2024 09:30:00'),
+    'End Time': new Date('Sep 28, 2024 10:30:00'),
+    Event: 'Breakfast',
     Description: '',
     Location: 'CCCB Lobby',
   },
@@ -60,27 +60,19 @@ export const schedule = [
     Location: 'CCCB 1420',
   },
   {
-    'Start Time': new Date('Sep 28, 2024 09:30:00'),
-    'End Time': new Date('Sep 28, 2024 10:30:00'),
-    Event: 'Breakfast',
+    'Start Time': new Date('Sep 28, 2024 11:00:00'),
+    'End Time': new Date('Sep 28, 2024 12:30:00'),
+    Event: 'Hacker Check-In',
     Description: '',
-    Location: 'CCCB Lobby',
+    Location: 'Pierpont Commons',
   },
   {
     'Start Time': new Date('Sep 28, 2024 11:30:00'),
     'End Time': new Date('Sep 28, 2024 11:30:00'),
     Event: 'Hacking Begins',
     Description: '',
-    Location: 'Duderstadt Basement',
+    Location: 'Duderstadt',
   },
-  // {
-  //   'Start Time': new Date('Nov 18, 2023 11:30:00'),
-  //   'End Time': new Date('Nov 18, 12:30:00'),
-  //   Event: 'Team Formation',
-  //   Description:
-  //     "Don't have a team yet? Join the team formation event to discuss ideas you'd like to hack on, and meet other hackers!",
-  //   Location: 'Design Lab 2',
-  // },
   {
     'Start Time': new Date('Sep 28, 2024 11:30:00'),
     'End Time': new Date('Sep 28, 2024 18:00:00'),
@@ -95,87 +87,13 @@ export const schedule = [
     Description: '',
     Location: 'Bob and Betty Beyster Building Atrium',
   },
-  // {
-  //   'Start Time': new Date('Nov 18, 2023 14:00:00'),
-  //   'End Time': new Date('Nov 18, 2023 14:45:00'),
-  //   Event: 'Workshop: Organization with Notion',
-  //   Description: 'With Notion',
-  //   Location: 'Design Lab 2',
-  // },
-  // {
-  //   'Start Time': new Date('Nov 18, 2023 16:00:00'),
-  //   'End Time': new Date('Nov 18, 2023 16:45:00'),
-  //   Event:
-  //     'Workshop: How to Overcome Imposter Syndrome in the Recruitment Process',
-  //   Description: 'With Uber',
-  //   Location: 'Design Lab 2',
-  // },
-  // {
-  //   'Start Time': new Date('Nov 18, 2023 17:00:00'),
-  //   'End Time': new Date('Nov 18, 2023 17:45:00'),
-  //   Event: 'Workshop: How to Become a 10x Developer Using the Terminal',
-  //   Description: 'With Warp',
-  //   Location: 'Design Lab 2',
-  // },
-  // {
-  //   'Start Time': new Date('Nov 18, 2023 18:00:00'),
-  //   'End Time': new Date('Nov 18, 2023 18:45:00'),
-  //   Event:
-  //     'Workshop: How to Start a Company, Raise a Million Dollars, and Get Your First 1000 Users',
-  //   Description: 'With Jam.dev',
-  //   Location: 'Design Lab 2',
-  // },
   {
     'Start Time': new Date('Sep 28, 2024 19:00:00'),
-    'End Time': new Date('Sep 28, 2024 20:00:00'),
+    'End Time': new Date('Sep 28, 2024 20:30:00'),
     Event: 'Dinner',
     Description: '',
     Location: 'Bob and Betty Beyster Building Atrium',
   },
-  {
-    'Start Time': new Date('Sep 28, 2024 20:00:00'),
-    'End Time': new Date('Sep 28, 2024 20:15:00'),
-    Event: 'MLH Event',
-    Description: '',
-    Location: 'Duderstadt Atrium',
-  },
-  // {
-  //   'Start Time': new Date('Nov 18, 2023 21:00:00'),
-  //   'End Time': new Date('Nov 18, 2023 21:45:00'),
-  //   Event: 'Workshop: Intro to Large Language Models',
-  //   Description: 'With Michigan Data Science Team',
-  //   Location: 'Design Lab 2',
-  // },
-  // {
-  //   'Start Time': new Date('Nov 18, 2023 22:00:00'),
-  //   'End Time': new Date('Nov 18, 2023 22:45:00'),
-  //   Event: 'Workshop: Intro to React',
-  //   Description:
-  //     'Learn the basics of building frontend web apps in React with Michigan Hackers',
-  //   Location: 'Design Lab 2',
-  // },
-  // {
-  //   'Start Time': new Date('Nov 18, 2023 23:00:00'),
-  //   'End Time': new Date('Nov 18, 2023 23:45:00'),
-  //   Event: 'Workshop: Intro to Blockchain and On-chain Data',
-  //   Description: 'With College Dao',
-  //   Location: 'Design Lab 2',
-  // },
-
-  // {
-  //   'Start Time': new Date('Nov 19, 2023 00:00:00'),
-  //   'End Time': new Date('Nov 19, 2023 00:45:00'),
-  //   Event: 'Workshop: 0 to 1 for Startups',
-  //   Description: 'With Tour.Video (YC S21)',
-  //   Location: 'Design Lab 2',
-  // },
-  // {
-  //   'Start Time': new Date('Nov 19, 2023 03:30:00'),
-  //   'End Time': new Date('Nov 19, 2023 05:00:00'),
-  //   Event: 'Cricket World Cup Finals Watch Party',
-  //   Description: '🏏🔥',
-  //   Location: 'Design Studio',
-  // },
   {
     'Start Time': new Date('Nov 19, 2023 11:00:00'),
     'End Time': new Date('Nov 19, 2023 13:00:00'),
@@ -191,8 +109,8 @@ export const schedule = [
     Location: 'Duderstadt Basement',
   },
   {
-    'Start Time': new Date('Nov 19, 2023 12:00:00'),
-    'End Time': new Date('Nov 18, 2023 15:30:00'),
+    'Start Time': new Date('Nov 19, 2023 12:30:00'),
+    'End Time': new Date('Nov 18, 2023 14:30:00'),
     Event: 'Judging',
     Description: 'Remain at your hacking table.',
     Location: 'Duderstadt Center',

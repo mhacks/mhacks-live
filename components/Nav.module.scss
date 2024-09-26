@@ -53,7 +53,7 @@
       left: 0;
       flex-direction: column;
       gap: 0px;
-      background: #ad9ee8d0;
+      background: var(--abyss-purple);
       backdrop-filter: blur(8px);
       overflow: hidden;
       transition: max-height 0.2s linear,

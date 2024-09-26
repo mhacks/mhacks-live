@@ -58,6 +58,27 @@
       margin-bottom: 16px;
     }
 
+    .buttonContainer {
+      margin: 32px 0;
+      display: flex;
+      justify-content: center;
+
+      .fullScheduleButton {
+        padding: 16px 32px;
+        border: none;
+        border-radius: 8px;
+        font-size: 24px;
+        font-weight: 700;
+        background: var(--accent-magenta);
+        color: white;
+        text-decoration: none;
+
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+
     @media (max-width: 800px) {
       padding: 64px 24px;
     }
