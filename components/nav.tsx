@@ -39,9 +39,9 @@ export default function Nav() {
         <Image
           className={styles.logo}
           priority
-          width={118}
-          height={36}
-          src="/images/logo.svg"
+          width={77}
+          height={48}
+          src="/images/logo.png"
           alt="logo"
         />
       </Link>
