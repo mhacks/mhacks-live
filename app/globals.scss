@@ -2,6 +2,8 @@
   --text-primary: #303030;
   --text-secondary: #505050;
   --text-tertiary: #808080;
+  --abyss-purple: #190363;
+  --panel-purple: #383781;
   --dark-purple: #8b80b4;
   --purple: #ad9ee8;
   --light-purple: #e7e0ff;
@@ -9,15 +11,15 @@
 }
 
 ::selection {
-  color: white;
-  background: var(--dark-purple);
+  color: var(--abyss-purple);
+  background: var(--purple);
 }
 
 * {
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  font-family: inherit;
+  font-family: 'Alata', sans-serif;
 }
 
 html,
@@ -25,8 +27,8 @@ body {
   width: 100dvw;
   height: 100dvh;
   overflow-x: hidden;
-  background: var(--purple);
-  color: var(--text-primary);
+  background: var(--abyss-purple);
+  color: var(--pale-purple);
   position: relative;
   font-size: 18px;
 }

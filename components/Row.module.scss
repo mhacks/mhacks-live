@@ -1,21 +1,21 @@
 .container {
   padding: 16px;
-  border-radius: 0px;
+  border-radius: 8px;
   display: grid;
   // default text color
-  color: var(--text-secondary);
-  background: var(--pale-purple);
+  color: var(--pale-purple);
+  background: var(--abyss-purple);
 
   p:nth-of-type(1) {
-    color: var(--dark-purple);
+    color: var(--pale-purple);
   }
 
   p:nth-of-type(2) {
-    color: var(--dark-purple);
+    color: var(--pale-purple);
   }
 
   p:nth-of-type(3) {
-    color: var(--text-primary);
+    color: var(--pale-purple);
     font-size: 20px;
     font-weight: 600;
   }
@@ -34,18 +34,18 @@
 
 .prizesContainer {
   padding: 16px;
-  border-radius: 0px;
+  border-radius: 8px;
   display: grid;
   // default text color
-  color: var(--text-secondary);
-  background: var(--pale-purple);
+  color: var(--pale-purple);
+  background: var(--abyss-purple);
 
   p:nth-of-type(1) {
-    color: var(--dark-purple);
+    color: var(--pale-purple);
   }
 
   p:nth-of-type(2) {
-    color: var(--text-primary);
+    color: var(--pale-purple);
     font-size: 20px;
     font-weight: 600;
   }

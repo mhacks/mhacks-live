@@ -1,12 +1,13 @@
 .page {
   padding: 64px 128px;
-  background: var(--pale-purple);
+  background: var(--purple);
 
   @media (max-width: 800px) {
     padding: 64px 24px;
   }
 
   .heading {
+    color: white;
     margin-bottom: 16px;
   }
 

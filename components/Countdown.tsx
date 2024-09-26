@@ -29,6 +29,7 @@ export default function Countdown() {
     return () => {
       clearInterval(interval);
     };
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   const lessThanHour = (sec: number): boolean => {

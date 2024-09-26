@@ -7,18 +7,18 @@
   transition: transform 0.2s;
 
   img {
-    border: 1px solid var(--purple);
+    border: 1px solid var(--abyss-purple);
     border-radius: 12px;
   }
 
   &:hover {
     text-decoration: underline;
-    text-decoration-color: var(--dark-purple);
+    text-decoration-color: var(--pale-purple);
     transform: translateY(-4px);
   }
 
   .purple {
-    color: var(--dark-purple);
+    color: var(--pale-purple);
   }
 
   .white {

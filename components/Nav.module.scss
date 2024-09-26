@@ -2,13 +2,13 @@
   width: 100dvw;
   height: 72px;
   padding: 0px 128px;
-  border: solid var(--dark-purple);
+  border: solid var(--abyss-purple);
   border-width: 0 0 1px 0;
   position: relative;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background: #ad9ee8d0;
+  background: var(--abyss-purple);
   backdrop-filter: blur(8px);
 
   .logoLink {

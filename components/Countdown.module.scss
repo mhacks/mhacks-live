@@ -8,7 +8,7 @@
     height: 176px;
     font-size: 128px;
     font-variant-numeric: tabular-nums;
-    color: var(--dark-purple);
+    color: var(--pale-purple);
 
     &.pulse {
       @include animations.pulse-size;
@@ -22,7 +22,7 @@
 
   .until {
     font-size: 32px;
-    color: var(--dark-purple);
+    color: var(--pale-purple);
 
     @media (max-width: 800px) {
       font-size: 24px;
