@@ -10,8 +10,8 @@
 /* ================================ EDIT ANNOUNCEMENT BANNER ================================ */
 
 export const announcement = {
-  text: '', // announcement banner will be displayed if text is not an empty string
-  link: '', // link is optional
+  text: 'Devpost has been posted!', // announcement banner will be displayed if text is not an empty string
+  link: 'https://devpost/...', // link is optional
 };
 
 /* ================================ END EDIT ANNOUNCEMENT BANNER ================================ */
