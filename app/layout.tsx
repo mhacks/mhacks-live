@@ -1,5 +1,4 @@
 import type { Metadata } from 'next';
-import { Alata } from 'next/font/google';
 import './globals.scss';
 import Banner from '@/components/Banner';
 import ConsolePrint from '@/components/ConsolePrint';
@@ -7,8 +6,9 @@ import Footer from '@/components/Footer';
 import styles from './layout.module.scss';
 import { announcement } from '@/utils/data';
 import Nav from '@/components/nav';
+import localFont from 'next/font/local'
 
-const outfit = Alata({subsets:['latin'], weight: ['400']});
+const myFont = localFont({ src: '../public/fonts/SpaceGrotesk-VariableFont_wght.ttf' })
 
 export const metadata: Metadata = {
   title: 'MHacks Live',
@@ -21,7 +21,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={outfit.className}>
+      <body className={myFont.className}>
         <div className={styles.stickyTop}>
           {announcement.text && <Banner text={announcement.text} link={announcement.link} />}
           <Nav />
