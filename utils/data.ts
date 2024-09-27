@@ -10,8 +10,8 @@
 /* ================================ EDIT ANNOUNCEMENT BANNER ================================ */
 
 export const announcement = {
-  text: '', // announcement banner will be displayed if text is not an empty string
-  link: 'https://devpost/...', // link is optional
+  text: 'Sponsor tracks resources have been published!', // announcement banner will be displayed if text is not an empty string
+  link: 'https://live.mhacks.org/resources', // link is optional
 };
 
 /* ================================ END EDIT ANNOUNCEMENT BANNER ================================ */
@@ -168,60 +168,79 @@ type Resource = {
 
 export const resources: Array<Resource> = [
   {
-    company: 'Google Cloud',
-    logoPath: '/images/companies/googlecloud.png',
-    href: '/resources/Google_Cloud.pdf',
+    company: 'Warp',
+    logoPath: '/images/companies/warp.png',
+    href: '/resources/Warp.pdf',
   },
   {
-    company: 'Roboflow',
-    logoPath: '/images/companies/roboflow.png',
-    href: 'https://docs.google.com/forms/d/e/1FAIpQLSfxpB8odH94M-7A4mI1LEaO3TQukVAVZ81KqMLW_stJD5ZG7Q/viewform',
+    company: 'Aptiv',
+    logoPath: '/images/companies/aptiv.png',
+    href: '/resources/Aptiv.pdf',
   },
   {
-    company: 'optiMize',
-    logoPath: '/images/companies/optimize.png',
-    href: '/resources/optiMize.pdf',
+    company: 'CAT Digital',
+    logoPath: '/images/companies/cat_digital.png',
+    href: '/resources/Cat_Digital.pdf',
+  },
+  {
+    company: 'Google',
+    logoPath: '/images/companies/google.png',
+    href: '/resources/Google.pdf',
+  },
+  {
+    company: 'Intel',
+    logoPath: '/images/companies/intel.png',
+    href: '/resources/Intel.pdf',
+  },
+  {
+    company: 'Uber',
+    logoPath: '/images/companies/uber.png',
+    href: '/resources/Uber.pdf',
+  },
+  {
+    company: 'Groq',
+    logoPath: '/images/companies/groq.png',
+    href: '/resources/Groq.pdf',
   },
   {
     company: 'Michigan ITS',
     logoPath: '/images/companies/umich_its.png',
-    href: '/resources/UMichITS.pdf',
-  },
-
-  {
-    company: 'GitHub',
-    logoPath: '/images/companies/GitHub-logo.png',
-    href: '/resources/Github.pdf',
+    href: 'coming-soon',
   },
   {
-    company: 'MongoDB Atlas',
-    logoPath: '/images/companies/MongoDB.png',
-    href: '/resources/MongoDB Atlas.pdf',
+    company: 'Free WiLi',
+    logoPath: '/images/companies/free-wili.png',
+    href: 'coming-soon',
   },
   {
-    company: 'Streamlit',
-    logoPath: '/images/companies/streamlit.png',
-    href: '/resources/Streamlit.pdf',
+    company: 'D.E. Shaw',
+    logoPath: '/images/companies/deshaw.png',
+    href: 'coming-soon',
   },
   {
-    company: 'Kintone',
-    logoPath: '/images/companies/kintone.png',
-    href: '/resources/Kintone.pdf',
+    company: 'Cartesia',
+    logoPath: '/images/companies/cartesia.svg',
+    href: '/resources/Cartesia.pdf',
+  },
+  {
+    company: 'Telora',
+    logoPath: '/images/companies/telora.png',
+    href: '/resources/Telora.pdf',
+  },
+  {
+    company: 'Magic Loops',
+    logoPath: '/images/companies/magicloops.avif',
+    href: '/resources/Magic-Loops.pdf',
+  },
+  {
+    company: 'Boundary ML',
+    logoPath: '/images/companies/boundaryml.webp',
+    href: 'coming-soon',
   },
   {
     company: 'MLH',
     logoPath: '/images/companies/MLH.png',
-    href: '/resources/Most Innovative Startup Idea.pdf',
-  },
-  {
-    company: 'Flow',
-    logoPath: '/images/companies/flow.png',
-    href: '/resources/Flow.pdf',
-  },
-  {
-    company: 'Hedera',
-    logoPath: '/images/companies/hedera.png',
-    href: '/resources/Hedera.pdf',
+    href: 'https://hack.mlh.io/mhacks-2024/prizes',
   },
 ];
 
