@@ -288,13 +288,13 @@ export const prizes = [
   {
     Category: '1st Place Best Use of Intel AI',
     Prize:
-      '$2500 Intel® Developer Cloud credits + Lenovo Thinkpad X1 Carbon each',
+      '$2500 Intel Developer Cloud credits + Lenovo Thinkpad X1 Carbon each',
     'Awarded By': 'Intel',
   },
   {
     Category: '2st Place Best Use of Intel AI',
     Prize:
-      '$1000 Intel® Developer Cloud credit for each member + Sparkle Intel Arc A770 Titan OC Edition',
+      '$1000 Intel Developer Cloud credit for each member + Sparkle Intel Arc A770 Titan OC Edition',
     'Awarded By': 'Intel',
   },
   {
@@ -302,6 +302,21 @@ export const prizes = [
     Prize:
       '$500 Intel Developer Cloud credit for each member + Sparkle Intel Arc A750 ORC OC Edition',
     'Awarded By': 'Intel',
+  },
+  {
+    Category: '1st Place Best Google AI Breadboard Application',
+    Prize: '$1000',
+    'Awarded By': 'Google',
+  },
+  {
+    Category: '2st Place Best Google AI Breadboard Application',
+    Prize: '$700',
+    'Awarded By': 'Google',
+  },
+  {
+    Category: '1st Place Best Google AI Breadboard Application',
+    Prize: '$300',
+    'Awarded By': 'Google',
   },
   {
     Category: 'Best Developer Tool',
