@@ -282,7 +282,7 @@ export const prizes = [
   },
   {
     Category: 'Optimization',
-    Prize: 'RayBan Meta  Warfarer Smart Glasses',
+    Prize: 'RayBan Meta  Wayfarer Smart Glasses',
     'Awarded By': 'MHacks',
   },
   {
