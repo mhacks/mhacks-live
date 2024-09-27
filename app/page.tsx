@@ -16,11 +16,11 @@ const quickLinks = [
     text: 'Hacker Handbook',
     href: 'https://docs.google.com/document/d/1kpIZGN8-MbPODH5jmi3DoAfl-k6LWUxheGCQoeMBP54/edit?usp=sharing'
   },
-  // {
-  //   iconPath: '/images/devpost.svg',
-  //   text: 'Devpost Submission',
-  //   href: 'https://mhacks-2024.devpost.com/',
-  // }
+  {
+    iconPath: '/images/devpost.svg',
+    text: 'Devpost Submission',
+    href: 'https://mhacks-2024.devpost.com/',
+  }
 ];
 
 export default function Home() {
