@@ -353,9 +353,9 @@ export const prizes = [
     'Awarded By': 'BoundaryML',
   },
   {
-    Category: 'The Best Hack with an AI-Driven, Dynamically Rendered, UI',
+    Category: 'Best use of Generative UI',
     Prize: '$500',
-    'Awarded By': 'MagicLoops',
+    'Awarded By': 'Magic Loops',
   },
   {
     Category: 'Best Use of Sonic',
