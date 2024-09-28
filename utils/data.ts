@@ -339,7 +339,7 @@ export const prizes = [
   },
   {
     Category: 'Best Developer Tool',
-    Prize: 'Coming soon',
+    Prize: 'Keychron Mechanical Keyboards',
     'Awarded By': 'Warp',
   },
   {
@@ -348,7 +348,12 @@ export const prizes = [
     'Awarded By': 'CAT Digital',
   },
   {
-    Category: 'Best use of LLM Agents',
+    Category: 'Best Agent',
+    Prize: '$500',
+    'Awarded By': 'BoundaryML',
+  },
+  {
+    Category: 'Best Agent using BAML',
     Prize: '$500',
     'Awarded By': 'BoundaryML',
   },
