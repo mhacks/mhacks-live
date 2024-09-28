@@ -185,7 +185,7 @@ export const resources: Array<Resource> = [
   {
     company: 'Google',
     logoPath: '/images/companies/google.png',
-    href: '/resources/Google.pdf',
+    href: 'https://docs.google.com/document/d/1G3pCE8uHDXUYxd0-U3gOXqDU_d3XqAaeTr0nBkm60Hw/edit#heading=h.gnkj0j9ir6km',
   },
   {
     company: 'Intel',
