@@ -205,17 +205,17 @@ export const resources: Array<Resource> = [
   {
     company: 'Michigan ITS',
     logoPath: '/images/companies/umich_its.png',
-    href: 'coming-soon',
+    href: 'https://docs.google.com/document/d/1G3pCE8uHDXUYxd0-U3gOXqDU_d3XqAaeTr0nBkm60Hw/edit#heading=h.k880z3j8lgk1',
   },
   {
     company: 'Free WiLi',
     logoPath: '/images/companies/free-wili.png',
-    href: 'coming-soon',
+    href: 'https://docs.google.com/document/d/1G3pCE8uHDXUYxd0-U3gOXqDU_d3XqAaeTr0nBkm60Hw/edit#heading=h.6lcm4k3b4avk',
   },
   {
     company: 'D.E. Shaw',
     logoPath: '/images/companies/deshaw.png',
-    href: 'coming-soon',
+    href: 'https://docs.google.com/document/d/1G3pCE8uHDXUYxd0-U3gOXqDU_d3XqAaeTr0nBkm60Hw/edit#heading=h.24be7j6nc34n',
   },
   {
     company: 'Cartesia',
@@ -235,7 +235,7 @@ export const resources: Array<Resource> = [
   {
     company: 'Boundary ML',
     logoPath: '/images/companies/boundaryml.webp',
-    href: 'coming-soon',
+    href: 'https://docs.google.com/document/d/1G3pCE8uHDXUYxd0-U3gOXqDU_d3XqAaeTr0nBkm60Hw/edit#heading=h.cetcifwwqyki',
   },
   {
     company: 'MLH',
