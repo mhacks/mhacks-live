@@ -10,8 +10,8 @@
 /* ================================ EDIT ANNOUNCEMENT BANNER ================================ */
 
 export const announcement = {
-  text: 'Sponsor resources have been published!', // announcement banner will be displayed if text is not an empty string
-  link: 'https://live.mhacks.org/resources', // link is optional
+  text: '', // announcement banner will be displayed if text is not an empty string
+  link: '', // link is optional
 };
 
 /* ================================ END EDIT ANNOUNCEMENT BANNER ================================ */
