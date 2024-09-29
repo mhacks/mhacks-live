@@ -10,8 +10,8 @@
 /* ================================ EDIT ANNOUNCEMENT BANNER ================================ */
 
 export const announcement = {
-  text: '', // announcement banner will be displayed if text is not an empty string
-  link: '', // link is optional
+  text: 'Devpost submission window has been extended to 12:15.', // announcement banner will be displayed if text is not an empty string
+  link: 'https://mhacks-2024.devpost.com/', // link is optional
 };
 
 /* ================================ END EDIT ANNOUNCEMENT BANNER ================================ */
