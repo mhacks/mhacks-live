@@ -364,7 +364,7 @@ export const prizes = [
   },
   {
     Category: 'Best Use of Sonic',
-    Prize: 'Coming soon',
+    Prize: 'Yoshi plushy, Cartesia API credits',
     'Awarded By': 'Cartesia',
   },
   {
