@@ -76,14 +76,14 @@ export const schedule = [
     "End Time": null,
     Event: "Hacking Begins",
     Description: "",
-    Location: "Duderstadt",
+    Location: "Duderstadt Center",
   },
   {
     "Start Time": new Date("Sep 27, 2025 11:30:00"),
     "End Time": new Date("Sep 27, 2025 18:00:00"),
     Event: "Sponsor Exposition",
     Description: "",
-    Location: "Pierpont Attrium",
+    Location: "Duderstadt/Pierpont Connector",
   },
   {
     "Start Time": new Date("Sep 27, 2025 12:30:00"),
@@ -91,6 +91,19 @@ export const schedule = [
     Event: "Lunch",
     Description: "",
     Location: "Bob and Betty Beyster Building Atrium",
+  },
+  {
+    "Start Time": new Date("Sep 27, 2025 13:00:00"),
+    "End Time": null,
+    Event: "Workshops Begin",
+    Description: (
+      <>
+        <a href="https://www.notion.so/Workshop-Schedules-25a24ca0c81b804aa427cb253533af35?source=copy_link">
+          Workshop schedule
+        </a>
+      </>
+    ),
+    Location: "Duderstadt Center",
   },
   {
     "Start Time": new Date("Sep 27, 2025 19:00:00"),

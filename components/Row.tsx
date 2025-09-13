@@ -43,7 +43,7 @@ export default function Row({
   function formatColumnValue(col: Column) {
     const value = row[col.name];
     if (value && col.name === "Start Time") {
-      return format(new Date(value), "eeee, h:mm aaa");
+      return format(new Date(value), "h:mm aaa, eeee");
     } else if (value && col.name === "End Time") {
       return format(new Date(value), "h:mm aaa");
     }
