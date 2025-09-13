@@ -17,6 +17,7 @@ export const announcement = {
 /* ================================ END EDIT ANNOUNCEMENT BANNER ================================ */
 
 import { Column } from "@/utils/types";
+import Link from "next/link";
 
 export const scheduleCols: Array<Column> = [
   {
@@ -98,9 +99,12 @@ export const schedule = [
     Event: "Workshops Begin",
     Description: (
       <>
-        <a href="https://www.notion.so/Workshop-Schedules-25a24ca0c81b804aa427cb253533af35?source=copy_link">
+        <Link
+          href="https://www.notion.so/Workshop-Schedules-25a24ca0c81b804aa427cb253533af35?source=copy_link"
+          target="_blank"
+        >
           Workshop schedule
-        </a>
+        </Link>
       </>
     ),
     Location: "Duderstadt Center",
