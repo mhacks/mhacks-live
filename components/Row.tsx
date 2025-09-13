@@ -1,6 +1,6 @@
 import styles from "./Row.module.scss";
 import { Column } from "@/utils/types";
-import styleBuidler from "@/utils/styleBuilder";
+import styleBuilder from "@/utils/styleBuilder";
 import { parse } from "date-fns";
 import format from "date-fns/format";
 
@@ -25,7 +25,7 @@ export default function Row({
 }: RowProps) {
   return (
     <div
-      className={styleBuidler([
+      className={styleBuilder([
         [styles.container, !prizes],
         [styles.prizesContainer, prizes],
       ])}
