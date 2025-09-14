@@ -1,17 +1,5 @@
-<svg width="118" height="35" viewBox="0 0 118 35" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M11.2428 3.54023L15.3313 9.72769H14.2238H12.661L13.5749 10.9955L17.2573 16.104L17.9063 17.0043L18.5552 16.104L22.2377 10.9955L23.1516 9.72769H21.5887H20.4812L24.5697 3.54023L34.0125 2.85973V32.6838L24.5455 31.3193V21.721V19.914L23.2077 21.1287L17.9063 25.9425L12.6048 21.1287L11.267 19.914V21.721V31.3193L1.8 32.6838V2.85973L11.2428 3.54023Z" fill="url(#paint0_linear_16_80)" stroke="white" stroke-width="1.6"/>
-<circle cx="29" cy="7" r="6" fill="#FF5C5C" fill-opacity="0.2"/>
-<circle cx="29" cy="7" r="2" fill="#FF5C5C"/>
-<path d="M49.5556 25.56H62.8198V31H43.5447V3.83356H49.5556V25.56ZM69.8443 3.83356V31H64.27V3.83356H69.8443ZM86.5602 31H80.1128L71.1469 3.83356H76.8555L83.3365 23.4444L89.8511 3.83356H95.5597L86.5602 31ZM96.8665 3.83356H116.276V9.27357H102.743V14.1091L114.026 14.1763V19.5827L102.743 19.5491V25.5936H116.276V31H96.8665V3.83356Z" fill="url(#paint1_linear_16_80)"/>
-<defs>
-<linearGradient id="paint0_linear_16_80" x1="17.9063" y1="2" x2="17.9063" y2="33.6074" gradientUnits="userSpaceOnUse">
-<stop stop-color="white" stop-opacity="0.7"/>
-<stop offset="1" stop-color="white" stop-opacity="0"/>
-</linearGradient>
-<linearGradient id="paint1_linear_16_80" x1="80" y1="3" x2="80" y2="36" gradientUnits="userSpaceOnUse">
-<stop stop-color="white"/>
-<stop offset="0.0001" stop-color="white"/>
-<stop offset="1" stop-color="white" stop-opacity="0.6"/>
-</linearGradient>
-</defs>
+<svg width="100" height="94" viewBox="0 0 100 94" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M0 0L31.6249 2.29179L46.784 25.3613H39.1092L50 40.5539L60.8908 25.3613H53.216L68.3751 2.29179L100 0V94L67.2694 89.2562V58.65L50 74.4186L32.7306 58.65V89.2562L0 94V0ZM5.03145 5.47708V88.1194L27.6992 84.8341V47.1921L50 67.5549L72.3008 47.1921V84.8341L94.9686 88.1194V5.47708L71.1951 7.19989L62.6121 20.2618H70.7654L50 49.2297L29.2346 20.2618H37.3879L28.8049 7.19989L5.03145 5.47708Z"
+    fill="white" />
 </svg>

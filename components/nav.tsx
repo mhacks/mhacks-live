@@ -40,7 +40,7 @@ export default function Nav() {
           priority
           width={48}
           height={48}
-          src="/images/logo.png"
+          src="/images/logo.svg"
           alt="logo"
         />
       </Link>
