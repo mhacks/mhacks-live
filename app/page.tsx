@@ -4,6 +4,7 @@ import { scheduleCols, schedule } from "@/utils/data";
 import styles from "./page.module.scss";
 import Countdown from "@/components/Countdown";
 import DownChevron from "@/public/icons/downChevron.svg";
+import Hero from "@/components/hero/Hero";
 
 const quickLinks = [
   {
@@ -27,7 +28,9 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <section className={styles.hero}>
-        <div className={styles.heroBGImg}></div>
+        <div className={styles.heroBG}>
+          <Hero />
+        </div>
         <Countdown />
         <div className={styles.quickLinks}>
           {quickLinks.map((quickLink) => (

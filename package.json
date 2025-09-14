@@ -12,6 +12,7 @@
     "@svgr/webpack": "^8.1.0",
     "date-fns": "^2.30.0",
     "format-duration": "^3.0.2",
+    "framer-motion": "^12.23.12",
     "next": "^14.2.32",
     "node-fetch": "^3.3.2",
     "react": "^18",
