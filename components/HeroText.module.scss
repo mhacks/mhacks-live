@@ -1,10 +1,10 @@
 @use '/styles/_animations';
 
-.countdown {
+.herotext {
   text-align: center;
   @include animations.fade-with-delay(0.5s);
 
-  .numerials {
+  .title {
     height: 176px;
     font-size: 128px;
     font-variant-numeric: tabular-nums;
@@ -21,7 +21,7 @@
     }
   }
 
-  .until {
+  .subtitle {
     font-size: 32px;
     font-weight: 700;
     color: var(--pale-purple);

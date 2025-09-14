@@ -3,8 +3,7 @@
 import { useState, useEffect } from "react";
 import differenceInSeconds from "date-fns/differenceInSeconds";
 import format from "format-duration";
-import styleBuidler from "@/utils/styleBuilder";
-import styles from "./Countdown.module.scss";
+import HeroText from "./HeroText";
 
 export default function Countdown() {
   const [duration, setDuration] = useState<string>("");
@@ -49,16 +48,10 @@ export default function Countdown() {
   };
 
   return (
-    <div className={styles.countdown}>
-      <p
-        className={styleBuidler([
-          styles.numerials,
-          [styles.pulse, diffInSec ? lessThanHour(diffInSec) : false],
-        ])}
-      >
-        {duration}
-      </p>
-      <p className={styles.until}>{untilText}</p>
-    </div>
+    <HeroText
+      title={duration}
+      subtitle={untilText}
+      shouldPulseTitle={diffInSec !== null && lessThanHour(diffInSec)}
+    />
   );
 }
