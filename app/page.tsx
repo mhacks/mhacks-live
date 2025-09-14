@@ -1,3 +1,5 @@
+"use client";
+
 import QuickLink from "@/components/QuickLink";
 import Table from "@/components/Table";
 import { scheduleCols, schedule } from "@/utils/data";
@@ -5,6 +7,8 @@ import styles from "./page.module.scss";
 import Countdown from "@/components/Countdown";
 import DownChevron from "@/public/icons/downChevron.svg";
 import Hero from "@/components/hero/Hero";
+import { useState } from "react";
+import HeroText from "@/components/HeroText";
 
 const quickLinks = [
   {
@@ -25,13 +29,19 @@ const quickLinks = [
 ];
 
 export default function Home() {
+  const [smileysClicked, setSmileysClicked] = useState<number>(0);
+
   return (
     <main className={styles.main}>
       <section className={styles.hero}>
         <div className={styles.heroBG}>
-          <Hero />
+          <Hero onClick={() => setSmileysClicked(smileysClicked + 1)} />
         </div>
-        <Countdown />
+        {smileysClicked >= 5 ? (
+          <HeroText title={smileysClicked} subtitle=":)" />
+        ) : (
+          <Countdown />
+        )}
         <div className={styles.quickLinks}>
           {quickLinks.map((quickLink) => (
             <QuickLink

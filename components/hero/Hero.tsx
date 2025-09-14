@@ -7,7 +7,7 @@ import SmileyButton from "./SmileyButton";
 const densityFactor = 95000;
 const jitter = 0.6;
 
-export default function Hero() {
+export default function Hero({ onClick }: { onClick?: () => void }) {
   const [ref, size] = useComponentSize<HTMLDivElement>();
   const debouncedSize = useDebounce(size, 250);
 
@@ -52,6 +52,7 @@ export default function Hero() {
             left: left,
             top: top,
           }}
+          onClick={onClick}
         />
       ))}
     </div>
