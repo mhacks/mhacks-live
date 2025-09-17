@@ -188,83 +188,7 @@ type Resource = {
 
 /* ================================ EDIT RESOURCES ================================ */
 
-export const resources: Array<Resource> = [
-  {
-    company: "Warp",
-    logoPath: "/images/companies/warp.png",
-    href: "/resources/Warp.pdf",
-  },
-  {
-    company: "Aptiv",
-    logoPath: "/images/companies/aptiv.png",
-    href: "/resources/Aptiv.pdf",
-  },
-  {
-    company: "CAT Digital",
-    logoPath: "/images/companies/cat_digital.png",
-    href: "/resources/Cat_Digital.pdf",
-  },
-  {
-    company: "Google",
-    logoPath: "/images/companies/google.png",
-    href: "https://docs.google.com/document/d/1G3pCE8uHDXUYxd0-U3gOXqDU_d3XqAaeTr0nBkm60Hw/edit#heading=h.gnkj0j9ir6km",
-  },
-  {
-    company: "Intel",
-    logoPath: "/images/companies/intel.png",
-    href: "/resources/Intel.pdf",
-  },
-  {
-    company: "Uber",
-    logoPath: "/images/companies/uber.png",
-    href: "/resources/Uber.pdf",
-  },
-  {
-    company: "Groq",
-    logoPath: "/images/companies/groq.png",
-    href: "/resources/Groq.pdf",
-  },
-  {
-    company: "Michigan ITS",
-    logoPath: "/images/companies/umich_its.png",
-    href: "https://docs.google.com/document/d/1G3pCE8uHDXUYxd0-U3gOXqDU_d3XqAaeTr0nBkm60Hw/edit#heading=h.k880z3j8lgk1",
-  },
-  {
-    company: "Free WiLi",
-    logoPath: "/images/companies/free-wili.png",
-    href: "https://docs.google.com/document/d/1G3pCE8uHDXUYxd0-U3gOXqDU_d3XqAaeTr0nBkm60Hw/edit#heading=h.6lcm4k3b4avk",
-  },
-  {
-    company: "D.E. Shaw",
-    logoPath: "/images/companies/deshaw.png",
-    href: "https://docs.google.com/document/d/1G3pCE8uHDXUYxd0-U3gOXqDU_d3XqAaeTr0nBkm60Hw/edit#heading=h.24be7j6nc34n",
-  },
-  {
-    company: "Cartesia",
-    logoPath: "/images/companies/cartesia.svg",
-    href: "/resources/Cartesia.pdf",
-  },
-  {
-    company: "Telora",
-    logoPath: "/images/companies/telora.png",
-    href: "/resources/Telora.pdf",
-  },
-  {
-    company: "Magic Loops",
-    logoPath: "/images/companies/magicloops.avif",
-    href: "/resources/Magic-Loops.pdf",
-  },
-  {
-    company: "Boundary ML",
-    logoPath: "/images/companies/boundaryml.webp",
-    href: "https://docs.google.com/document/d/1G3pCE8uHDXUYxd0-U3gOXqDU_d3XqAaeTr0nBkm60Hw/edit#heading=h.cetcifwwqyki",
-  },
-  {
-    company: "MLH",
-    logoPath: "/images/companies/MLH.png",
-    href: "https://hack.mlh.io/mhacks-2024/prizes",
-  },
-];
+export const resources: Array<Resource> = [];
 
 /* ================================ END EDIT RESOURCES ================================ */
 
@@ -288,142 +212,70 @@ export const prizeCols: Array<Column> = [
 export const prizes = [
   {
     Category: "Grand Prize",
-    Prize: "$3,000",
+    Prize: "TBA",
     "Awarded By": "MHacks",
   },
   {
     Category: "Runner Up Prize",
-    Prize: "$1,500",
+    Prize: "TBA",
     "Awarded By": "MHacks",
   },
   {
-    Category: "Education",
-    Prize: "Bose SoundLink Flex Bluetooth Speaker",
+    Category: "🌱 Greenprint (Sustainability)",
+    Prize: "TBA",
     "Awarded By": "MHacks",
   },
   {
-    Category: "Interactive Media & Gaming",
-    Prize: "Dell Gaming Monitor",
+    Category: "💓 Lifeline (Healthcare)",
+    Prize: "TBA",
     "Awarded By": "MHacks",
   },
   {
-    Category: "Health",
-    Prize: "Whoop wearable fitness tracker",
+    Category: "⚡ Overdrive (Optimization)",
+    Prize: "TBA",
     "Awarded By": "MHacks",
   },
   {
-    Category: "Sustainability",
-    Prize: "iPad (10th Generation)",
+    Category: "🚪 Portal (Frontier Interfaces)",
+    Prize: "TBA",
     "Awarded By": "MHacks",
   },
   {
-    Category: "Accessibility",
-    Prize: "Insta360 Link 2 gimbal webcam",
-    "Awarded By": "MHacks",
+    Category: "Sponsor Prizes",
+    Prize: "TBA",
+    "Awarded By": "Sponsors",
   },
-  {
-    Category: "Optimization",
-    Prize: "RayBan Meta  Wayfarer Smart Glasses",
-    "Awarded By": "MHacks",
-  },
-  {
-    Category: "1st Place Best Use of Intel AI",
-    Prize:
-      "$2500 Intel Developer Cloud credits + Lenovo Thinkpad X1 Carbon each",
-    "Awarded By": "Intel",
-  },
-  {
-    Category: "2st Place Best Use of Intel AI",
-    Prize:
-      "$1000 Intel Developer Cloud credit for each member + Sparkle Intel Arc A770 Titan OC Edition",
-    "Awarded By": "Intel",
-  },
-  {
-    Category: "3st Place Best Use of Intel AI",
-    Prize:
-      "$500 Intel Developer Cloud credit for each member + Sparkle Intel Arc A750 ORC OC Edition",
-    "Awarded By": "Intel",
-  },
-  {
-    Category: "1st Place Best Google AI Breadboard Application",
-    Prize: "$1000",
-    "Awarded By": "Google",
-  },
-  {
-    Category: "2st Place Best Google AI Breadboard Application",
-    Prize: "$700",
-    "Awarded By": "Google",
-  },
-  {
-    Category: "1st Place Best Google AI Breadboard Application",
-    Prize: "$300",
-    "Awarded By": "Google",
-  },
-  {
-    Category: "Best Developer Tool",
-    Prize: "Keychron Mechanical Keyboards",
-    "Awarded By": "Warp",
-  },
-  {
-    Category: "Best Cloud Implementation",
-    Prize: "Wireless earbuds, Magport tri-fold charger",
-    "Awarded By": "CAT Digital",
-  },
-  {
-    Category: "Best Agent",
-    Prize: "$500",
-    "Awarded By": "BoundaryML",
-  },
-  {
-    Category: "Best Agent using BAML",
-    Prize: "$500",
-    "Awarded By": "BoundaryML",
-  },
-  {
-    Category: "Best use of Generative UI",
-    Prize: "$500",
-    "Awarded By": "Magic Loops",
-  },
-  {
-    Category: "Best Use of Sonic",
-    Prize: "Yoshi plushy, Cartesia API credits",
-    "Awarded By": "Cartesia",
-  },
-  {
-    Category: "Best App Built on Groq",
-    Prize: "$500 in credit to our Groq Swag Store",
-    "Awarded By": "Groq",
-  },
-  {
-    Category: "Best Use of Roboflow Workflows",
-    Prize: "Raspberry Pi 5 Dev Kit for each team member (up to 4)",
-    "Awarded By": "Roboflow",
-  },
-  {
-    Category: "Best use of MongoDB Atlas",
-    Prize: "M5GO IoT Starter Kit",
-    "Awarded By": "MLH",
-  },
-  {
-    Category: "Best use of MATLAB",
-    Prize: "Wireless YoYo Speaker",
-    "Awarded By": "MLH",
-  },
-  {
-    Category: "Best DEI Hack sponsored by Fidelity",
-    Prize: "Fidelity Branded Wireless Charger",
-    "Awarded By": "MLH",
-  },
-  {
-    Category: "Best use of Streamlit",
-    Prize: "Arduino Tiny ML Kit",
-    "Awarded By": "MLH",
-  },
-  {
-    Category: "Best use of Midnight",
-    Prize: "JBL Tune 510BT Wireless Headphones",
-    "Awarded By": "MLH",
-  },
+  // {
+  //   Category: "Best use of FREE-WiLi",
+  //   Prize: "FREE-WiLi kits",
+  //   "Awarded By": "FREE-WiLi",
+  // },
+  // {
+  //   Category: "Best use of AgentMail API",
+  //   Prize: "TBA",
+  //   "Awarded By": "AgentMail",
+  // },
+  // {
+  //   Category: "Most impactful AI agent",
+  //   Prize: "TBA",
+  //   "Awarded By": "AgentMail",
+  // },
+  // {
+  //   Category: "Best use of MemryX Edge AI Accelerator",
+  //   Prize: "TBA",
+  //   "Awarded By": "MemryX",
+  // },
+  // {
+  //   Category:
+  //     "Bridge Intent and Action: Build AI Agents That Think, Plan, and Deliver",
+  //   Prize: "$2,500",
+  //   "Awarded By": "Fetch.ai",
+  // },
+  // {
+  //   Category: "Most Creative Solana MCP",
+  //   Prize: "$5,000",
+  //   "Awarded By": "Solana",
+  // },
 ];
 
 /* ================================ END EDIT PRIZES ================================ */
