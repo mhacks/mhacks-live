@@ -1,37 +1,56 @@
-import QuickLink from '@/components/QuickLink';
-import Table from '@/components/Table';
-import { scheduleCols, schedule } from '@/utils/data';
-import styles from './page.module.scss';
-import Countdown from '@/components/Countdown';
-import DownChevron from '@/public/icons/downChevron.svg';
+"use client";
+
+import QuickLink from "@/components/QuickLink";
+import Table from "@/components/Table";
+import { scheduleCols, schedule } from "@/utils/data";
+import styles from "./page.module.scss";
+import Countdown from "@/components/Countdown";
+import DownChevron from "@/public/icons/downChevron.svg";
+import Hero from "@/components/hero/Hero";
+import { useState } from "react";
+import HeroText from "@/components/HeroText";
 
 const quickLinks = [
   {
-    iconPath: '/images/slack.svg',
-    text: 'MHacks Slack',
-    href: 'https://join.slack.com/t/mhacks2024/shared_invite/zt-2r84sb8np-nYm8kil1V8sRcyxJoOqc3g'
+    iconPath: "/images/discord.svg",
+    text: "MHacks Discord",
+    href: "https://discord.mhacks.org/",
   },
   {
-    iconPath: '/images/mhacks2024.png',
-    text: 'Hacker Handbook',
-    href: 'https://docs.google.com/document/d/1kpIZGN8-MbPODH5jmi3DoAfl-k6LWUxheGCQoeMBP54/edit?usp=sharing'
+    iconPath: "/images/mhacks2025.svg",
+    text: "Hacker Handbook",
+    href: "https://handbook.mhacks.org/",
   },
   {
-    iconPath: '/images/devpost.svg',
-    text: 'Devpost Submission',
-    href: 'https://mhacks-2024.devpost.com/',
-  }
+    iconPath: "/images/devpost.svg",
+    text: "Devpost Submission",
+    href: "https://devpost.mhacks.org/",
+  },
 ];
 
 export default function Home() {
+  const [smileysClicked, setSmileysClicked] = useState<number>(0);
+
   return (
     <main className={styles.main}>
       <section className={styles.hero}>
-        <div className={styles.heroBGImg}></div>
-        <Countdown />
+        <div className={styles.heroBG}>
+          <Hero onClick={() => setSmileysClicked(smileysClicked + 1)} />
+        </div>
+        {smileysClicked >= 5 ? (
+          <HeroText title={smileysClicked} subtitle=":)" />
+        ) : (
+          <Countdown />
+        )}
         <div className={styles.quickLinks}>
-          {quickLinks.map(quickLink => (
-            <QuickLink key={quickLink.text} iconPath={quickLink.iconPath} text={quickLink.text} href={quickLink.href} color={'purple'} />
+          {quickLinks.map((quickLink) => (
+            <QuickLink
+              key={quickLink.text}
+              iconPath={quickLink.iconPath}
+              text={quickLink.text}
+              href={quickLink.href}
+              color={"purple"}
+            />
           ))}
         </div>
         <DownChevron className={styles.downChevron} />
@@ -40,7 +59,12 @@ export default function Home() {
         <h1 className={styles.heading}>Schedule</h1>
         <Table columns={scheduleCols} data={schedule} />
         <div className={styles.buttonContainer}>
-            <a className={styles.fullScheduleButton} href="https://docs.google.com/spreadsheets/d/1uPnhST3AS0vcgfrPEJKlkNTkEcdTShoUUnA_M1s7lsw/edit?gid=877663356#gid=877663356">See full schedule</a>
+          <a
+            className={styles.fullScheduleButton}
+            href="https://docs.google.com/spreadsheets/d/1Ox3Ds9ueZtc5poCj9OJAsQ0-khowg-Gv8PCmhYyh1yA/edit?usp=sharing"
+          >
+            See full schedule
+          </a>
         </div>
       </div>
     </main>

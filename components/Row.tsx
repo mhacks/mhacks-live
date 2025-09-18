@@ -1,8 +1,8 @@
-import styles from './Row.module.scss';
-import { Column } from '@/utils/types';
-import styleBuidler from '@/utils/styleBuilder';
-import { parse } from 'date-fns';
-import format from 'date-fns/format';
+import styles from "./Row.module.scss";
+import { Column } from "@/utils/types";
+import styleBuilder from "@/utils/styleBuilder";
+import { parse } from "date-fns";
+import format from "date-fns/format";
 
 type RowProps = {
   columns: Array<Column>;
@@ -25,17 +25,28 @@ export default function Row({
 }: RowProps) {
   return (
     <div
-      className={styleBuidler([[styles.container, !prizes], [styles.prizesContainer, prizes]])}
+      className={styleBuilder([
+        [styles.container, !prizes],
+        [styles.prizesContainer, prizes],
+      ])}
       style={{
         gridTemplateColumns: gridTemplateColumns,
         columnGap: columnGap,
       }}
     >
       {columns.map((col) => {
-        const value = col.name === 'Start Time' ? format(new Date(row[col.name]), "h:mm aaa, eeee") : (col.name === 'End Time' ? format(new Date(row[col.name]), "h:mm aaa") : row[col.name]);
-        return <p key={col.name}>{value}</p>;
-      }
-      )}
+        return <p key={col.name}>{formatColumnValue(col)}</p>;
+      })}
     </div>
   );
+
+  function formatColumnValue(col: Column) {
+    const value = row[col.name];
+    if (value && col.name === "Start Time") {
+      return format(new Date(value), "h:mm aaa, eeee");
+    } else if (value && col.name === "End Time") {
+      return format(new Date(value), "h:mm aaa");
+    }
+    return value;
+  }
 }

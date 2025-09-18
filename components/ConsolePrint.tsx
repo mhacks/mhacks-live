@@ -1,9 +1,8 @@
-'use client';
+"use client";
 
-import { useEffect, useRef } from 'react';
+import { useEffect, useRef } from "react";
 
 export default function ConsolePrint() {
-
   const rendered = useRef<boolean>(false);
 
   useEffect(() => {
@@ -16,7 +15,7 @@ export default function ConsolePrint() {
 ||__|||__|||__|||__|||__|||__|||______|||__|||__||
 |/__\\|/__\\|/__\\|/__\\|/__\\|/__\\|/______\\|/__\\|/__\\|
 
-Proudly brought to you by The MHacks 2024 Team.
+Proudly brought to you by The MHacks Team.
 
         `
       );

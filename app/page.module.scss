@@ -18,14 +18,10 @@
       gap: 64px;
     }
 
-    .heroBGImg {
+    .heroBG {
       height: 100%;
       width: 100%;
       position: absolute;
-      background: url('/images/heroBGImg.png');
-      background-position: center;
-      background-size: cover;
-      @include animations.fade-with-delay(0s);
     }
 
     .quickLinks {
@@ -53,6 +49,7 @@
   .scheduleContainer {
     padding: 64px 128px;
     background: var(--panel-purple);
+    position: relative;
 
     .heading {
       margin-bottom: 16px;
