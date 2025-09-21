@@ -171,10 +171,10 @@ export const maps: Array<Map> = [
     src: "/images/maps/dude0.png",
   },
   {
-    src: "/images/maps/bbb.png",
+    src: "/images/maps/dude3.png",
   },
   {
-    src: "/images/maps/parking.png",
+    src: "/images/maps/bbb.png",
   },
 ];
 
