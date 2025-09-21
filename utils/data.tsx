@@ -188,7 +188,108 @@ type Resource = {
 
 /* ================================ EDIT RESOURCES ================================ */
 
-export const resources: Array<Resource> = [];
+export const resources: Array<Resource> = [
+  {
+    company: "MemryX",
+    logoPath: "images/companies/memryx.svg",
+    href: "https://safe-banon-80d.notion.site/MemryX-27224ca0c81b80f7b474ce7b7e8ecf39",
+  },
+  {
+    company: "fetch.ai",
+    logoPath: "images/companies/fetchai.png",
+    href: "https://safe-banon-80d.notion.site/Fetch-ai-27224ca0c81b802e824ee16b8d1b7aa0",
+  },
+  {
+    company: "AgentMail",
+    logoPath: "images/companies/agentmail.svg",
+    href: "https://safe-banon-80d.notion.site/AgentMail-27224ca0c81b806f96bed79d431b9649?pvs=25",
+  },
+  {
+    company: "Ford",
+    logoPath: "images/companies/ford.svg",
+    href: "https://safe-banon-80d.notion.site/Ford-Motor-Company-27224ca0c81b80c99f90d5c2836f210f",
+  },
+  {
+    company: "Snap",
+    logoPath: "images/companies/snap.png",
+    href: "https://safe-banon-80d.notion.site/Snap-27224ca0c81b80cd93a1c2e77d4c1196",
+  },
+  {
+    company: "Method Financial",
+    logoPath: "images/companies/methodfinancial.svg",
+    href: "https://safe-banon-80d.notion.site/Method-Financial-27424ca0c81b805fbf38e9d6d874fd85",
+  },
+  {
+    company: "FREE-WiLi",
+    logoPath: "images/companies/free-wili.svg",
+    href: "https://safe-banon-80d.notion.site/FREE-WiLi-27224ca0c81b8095afbacb6048908962?pvs=25",
+  },
+  {
+    company: "Embedder",
+    logoPath: "images/companies/embedder.webp",
+    href: "https://safe-banon-80d.notion.site/Embedder-dev-27424ca0c81b800183e3ea52920d456b",
+  },
+  {
+    company: "Solana",
+    logoPath: "images/companies/solana.svg",
+    href: "https://safe-banon-80d.notion.site/Solana-Foundation-27224ca0c81b809b9f51ecb1152b7bd7",
+  },
+  {
+    company: "Grainger",
+    logoPath: "images/companies/grainger.svg",
+    href: "https://safe-banon-80d.notion.site/Grainger-27224ca0c81b805c875cf37e91711886?pvs=25",
+  },
+  {
+    company: "Base44",
+    logoPath: "images/companies/base44.svg",
+    href: "https://safe-banon-80d.notion.site/Base44-27224ca0c81b80429931f02e6eb04b3c?pvs=25",
+  },
+  {
+    company: "Telora",
+    logoPath: "images/companies/telora.jpeg",
+    href: "https://safe-banon-80d.notion.site/Telora-27224ca0c81b80fc8635d855b6a79897?pvs=25",
+  },
+  {
+    company: "Sierra",
+    logoPath: "images/companies/sierra.svg",
+    href: "https://safe-banon-80d.notion.site/Sierra-27424ca0c81b800dbbe1ed67565cb775?pvs=25",
+  },
+  {
+    company: "Broccoli AI",
+    logoPath: "images/companies/broccoliai.svg",
+    href: "https://safe-banon-80d.notion.site/Broccoli-AI-27224ca0c81b808ba7dbe31f47a4a821",
+  },
+  {
+    company: "Sandia National Laboratories",
+    logoPath: "images/companies/sandianationallaboratories.svg",
+    href: "https://safe-banon-80d.notion.site/Sandia-National-Labs-27424ca0c81b80cdab8be77311f0eb58?pvs=25",
+  },
+  {
+    company: "Mastra AI",
+    logoPath: "images/companies/mastraai.svg",
+    href: "https://safe-banon-80d.notion.site/Mastra-AI-27224ca0c81b805abe33d6fcbcc21345?pvs=25",
+  },
+  {
+    company: "Google",
+    logoPath: "images/companies/google.svg",
+    href: "https://safe-banon-80d.notion.site/Google-27424ca0c81b80398181c2152d3f9c1d?pvs=25",
+  },
+  {
+    company: "Vercel",
+    logoPath: "images/companies/vercel.svg",
+    href: "https://safe-banon-80d.notion.site/Vercel-27424ca0c81b80e9948efd7b88702d49?pvs=25",
+  },
+  {
+    company: "D.E. Shaw",
+    logoPath: "images/companies/deshaw.png",
+    href: "https://safe-banon-80d.notion.site/D-E-Shaw-27424ca0c81b8065a8c4f16bef0464e8?pvs=25",
+  },
+  {
+    company: "Stevens Capital Management",
+    logoPath: "images/companies/scm.svg",
+    href: "https://safe-banon-80d.notion.site/Stevens-Capital-27424ca0c81b80748290c22e480e8772?pvs=25",
+  },
+];
 
 /* ================================ END EDIT RESOURCES ================================ */
 
