@@ -313,70 +313,108 @@ export const prizeCols: Array<Column> = [
 export const prizes = [
   {
     Category: "Grand Prize",
-    Prize: "TBA",
-    "Awarded By": "MHacks",
-  },
-  {
-    Category: "Runner Up Prize",
-    Prize: "TBA",
+    Prize: "$4,000",
     "Awarded By": "MHacks",
   },
   {
     Category: "🌱 Greenprint (Sustainability)",
-    Prize: "TBA",
+    Prize: "LEGO Bonsai Tree & Nothing Headphones",
     "Awarded By": "MHacks",
   },
   {
     Category: "💓 Lifeline (Healthcare)",
-    Prize: "TBA",
+    Prize: "Apple Watch Series 10",
     "Awarded By": "MHacks",
   },
   {
     Category: "⚡ Overdrive (Optimization)",
-    Prize: "TBA",
+    Prize: "NVIDIA Jetson Orin Nano Super Devloper Kit",
     "Awarded By": "MHacks",
   },
   {
     Category: "🚪 Portal (Frontier Interfaces)",
-    Prize: "TBA",
+    Prize: "Meta x Oakly Glasses",
     "Awarded By": "MHacks",
   },
   {
-    Category: "Sponsor Prizes",
-    Prize: "TBA",
-    "Awarded By": "Sponsors",
+    Category: "MHacks Brainrot Prize",
+    Prize: "Pop Mart Labubu",
+    "Awarded By": "MHacks",
   },
-  // {
-  //   Category: "Best use of FREE-WiLi",
-  //   Prize: "FREE-WiLi kits",
-  //   "Awarded By": "FREE-WiLi",
-  // },
-  // {
-  //   Category: "Best use of AgentMail API",
-  //   Prize: "TBA",
-  //   "Awarded By": "AgentMail",
-  // },
-  // {
-  //   Category: "Most impactful AI agent",
-  //   Prize: "TBA",
-  //   "Awarded By": "AgentMail",
-  // },
-  // {
-  //   Category: "Best use of MemryX Edge AI Accelerator",
-  //   Prize: "TBA",
-  //   "Awarded By": "MemryX",
-  // },
-  // {
-  //   Category:
-  //     "Bridge Intent and Action: Build AI Agents That Think, Plan, and Deliver",
-  //   Prize: "$2,500",
-  //   "Awarded By": "Fetch.ai",
-  // },
-  // {
-  //   Category: "Most Creative Solana MCP",
-  //   Prize: "$5,000",
-  //   "Awarded By": "Solana",
-  // },
+  {
+    Category: "MHacks Keyboard Competition Winner",
+    Prize: "Keychron Q2 Pro Full Metal RGB Keyboard",
+    "Awarded By": "MHacks",
+  },
+  {
+    Category: "MHacks Scavenger Hunt Winner",
+    Prize: "AirPods Pro",
+    "Awarded By": "MHacks",
+  },
+  {
+    Category: "Best Use of MemryX Edge AI Accelerator",
+    Prize: (
+      <>
+        $1,000 <br /> Top 3 Projects win MemryX M.2 accelerator modules
+      </>
+    ),
+    "Awarded By": "MemryX",
+  },
+  {
+    Category: "Build AI Agents with Fetch.ai Tech Stack Winner",
+    Prize: "$2,500",
+    "Awarded By": "Fetch.ai",
+  },
+  {
+    Category: "Best use of Snap AR - 1st Place",
+    Prize: "Snap Spectacles",
+    "Awarded By": "Snap AR",
+  },
+  {
+    Category: "Best use of Snap AR - 2nd Place",
+    Prize: "Nintendo Switch",
+    "Awarded By": "Snap AR",
+  },
+  {
+    Category: "Best use of Snap AR - 3rd Place",
+    Prize: "Soundview Speakers",
+    "Awarded By": "Snap AR",
+  },
+  {
+    Category: "Best use of FREE-WiLi",
+    Prize: "FREE-WiLi kit for each member of the team",
+    "Awarded By": "FREE-WiLi",
+  },
+  {
+    Category: "Best use of AgentMail API",
+    Prize: "$3,500 in cash and $10,000 in free credits",
+    "Awarded By": "AgentMail",
+  },
+  {
+    Category: "Best Hardware Hack presented by Embedder",
+    Prize: "$1,000",
+    "Awarded By": "Embedder",
+  },
+  {
+    Category: "Most Creative Solana MCP",
+    Prize: "$5,000",
+    "Awarded By": "Solana",
+  },
+  {
+    Category: "Smart Task Accelerator presented by Grainger - 1st Place",
+    Prize: "$500 Visa Gift Card per team member",
+    "Awarded By": "Grainger",
+  },
+  {
+    Category: "Smart Task Accelerator presented by Grainger - 2nd Place",
+    Prize: "$100 Visa Gift Card per team member",
+    "Awarded By": "Grainger",
+  },
+  {
+    Category: "Best integration with Base44",
+    Prize: "$1,000 + 3 months of Builder plan",
+    "Awarded By": "Base44",
+  },
 ];
 
 /* ================================ END EDIT PRIZES ================================ */
