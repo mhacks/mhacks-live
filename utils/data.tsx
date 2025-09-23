@@ -47,6 +47,69 @@ export const scheduleCols: Array<Column> = [
 
 export const schedule = [
   {
+    "Start Time": new Date("Sep 25, 2025 14:00:00"),
+    "End Time": null,
+    Event: (
+      <>
+        Pre-MHacks Workshop with Base44
+      </>
+    ),
+    Description: (
+      <>
+        <Link
+          href="https://wix.zoom.us/meeting/register/uP9fCH56TkK5EFx0faDCBg#/registration"
+          target="_blank"
+        >
+          Register
+        </Link>
+      </>
+    ),
+    Location: "Online",
+    highlight: true,
+  },
+  {
+    "Start Time": new Date("Sep 26, 2025 16:00:00"),
+    "End Time": null,
+    Event: (
+      <>
+        How to Build AI Agents with Fetch.ai
+      </>
+    ),
+    Description: (
+      <>
+        <Link
+          href="https://docs.google.com/forms/d/e/1FAIpQLSf0QRDDTk_9ZdBpFEEg8wK5obJII6lQQVTBtKrLwd9XPnhejg/viewform?usp=dialog"
+          target="_blank"
+        >
+          Register
+        </Link>
+      </>
+    ),
+    Location: "Online",
+    highlight: true,
+  },
+  {
+    "Start Time": new Date("Sep 26, 2025 18:00:00"),
+    "End Time": null,
+    Event: (
+      <>
+        Head Start into AI+AR Journey with Snapchat Spectacles with Snap AR
+      </>
+    ),
+    Description: (
+      <>
+        <Link
+          href="https://docs.google.com/forms/d/e/1FAIpQLSfyk-gjueFLKbsxMTFDMoqk_ZmYUJ_PSmqN6MzHYkF8czr3Kw/viewform?usp=send_form"
+          target="_blank"
+        >
+          Register
+        </Link>
+      </>
+    ),
+    Location: "CHRYS 220",
+    highlight: true,
+  },
+  {
     "Start Time": new Date("Sep 27, 2025 09:00:00"),
     "End Time": new Date("Sep 27, 2025 09:30:00"),
     Event: (
@@ -143,6 +206,22 @@ export const schedule = [
     Event: "Closing Ceremony",
     Description: "",
     Location: "CCCB 1420",
+  },
+  {
+    "Start Time": new Date("Sep 28, 2025 16:30:00"),
+    "End Time": null,
+    Event: (
+      <>
+        🔥 Tech Roast Show @ MHacks 🔥
+      </>
+    ),
+    Description: (
+      <>
+        <Link href="https://sociallyinept.io/" target="_blank">Details</Link>
+      </>
+    ),
+    Location: "CCCB 1420",
+    highlight: true,
   },
 ];
 

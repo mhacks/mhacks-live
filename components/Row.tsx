@@ -28,6 +28,7 @@ export default function Row({
       className={styleBuilder([
         [styles.container, !prizes],
         [styles.prizesContainer, prizes],
+        [styles.highlight, !!row.highlight],
       ])}
       style={{
         gridTemplateColumns: gridTemplateColumns,
