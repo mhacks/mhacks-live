@@ -22,6 +22,11 @@ const quickLinks = [
     href: "https://handbook.mhacks.org/",
   },
   {
+    iconPath: "/images/discord.svg",
+    text: "Volunteer Sign Up",
+    href: "https://tally.so/r/wvkxyX",
+  },
+  {
     iconPath: "/images/devpost.svg",
     text: "Devpost Submission",
     href: "https://devpost.mhacks.org/",
