@@ -407,7 +407,7 @@ export const prizes = [
   },
   {
     Category: "⚡ Overdrive (Optimization)",
-    Prize: "NVIDIA Jetson Orin Nano Super Devloper Kit",
+    Prize: "NVIDIA Jetson Orin Nano Super Developer Kit",
     "Awarded By": "MHacks",
   },
   {
