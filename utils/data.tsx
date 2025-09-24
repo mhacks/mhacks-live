@@ -481,12 +481,12 @@ export const prizes = [
   },
   {
     Category: "Smart Task Accelerator presented by Grainger - 1st Place",
-    Prize: "$200 Visa Gift Card per team member + Grainger swag",
+    Prize: "$800 in Visa Gift Cards + Grainger swag",
     "Awarded By": "Grainger",
   },
   {
     Category: "Smart Task Accelerator presented by Grainger - 2nd Place",
-    Prize: "$50 Visa Gift Card per team member + Grainger swag",
+    Prize: "$200 in Visa Gift Cards + Grainger swag",
     "Awarded By": "Grainger",
   },
   {
