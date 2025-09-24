@@ -412,7 +412,7 @@ export const prizes = [
   },
   {
     Category: "🚪 Portal (Frontier Interfaces)",
-    Prize: "Meta x Oakly Glasses",
+    Prize: "Meta x Oakley Glasses",
     "Awarded By": "MHacks",
   },
   {
