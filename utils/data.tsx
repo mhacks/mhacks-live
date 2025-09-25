@@ -475,8 +475,18 @@ export const prizes = [
     "Awarded By": "Embedder",
   },
   {
-    Category: "Most Creative Solana MCP",
-    Prize: "$5,000",
+    Category: "Most Creative Solana MCP - 1st Place",
+    Prize: "$2,500",
+    "Awarded By": "Solana",
+  },
+  {
+    Category: "Most Creative Solana MCP - 2nd Place",
+    Prize: "$1,500",
+    "Awarded By": "Solana",
+  },
+  {
+    Category: "Most Creative Solana MCP - 3rd Place",
+    Prize: "$1,000",
     "Awarded By": "Solana",
   },
   {
