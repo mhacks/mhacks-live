@@ -49,11 +49,7 @@ export const schedule = [
   {
     "Start Time": new Date("Sep 25, 2025 14:00:00"),
     "End Time": null,
-    Event: (
-      <>
-        Pre-MHacks Workshop with Base44
-      </>
-    ),
+    Event: <>Pre-MHacks Workshop with Base44</>,
     Description: (
       <>
         <Link
@@ -70,11 +66,7 @@ export const schedule = [
   {
     "Start Time": new Date("Sep 26, 2025 16:00:00"),
     "End Time": null,
-    Event: (
-      <>
-        How to Build AI Agents with Fetch.ai
-      </>
-    ),
+    Event: <>How to Build AI Agents with Fetch.ai</>,
     Description: (
       <>
         <Link
@@ -92,9 +84,7 @@ export const schedule = [
     "Start Time": new Date("Sep 26, 2025 18:00:00"),
     "End Time": null,
     Event: (
-      <>
-        Head Start into AI+AR Journey with Snapchat Spectacles with Snap AR
-      </>
+      <>Head Start into AI+AR Journey with Snapchat Spectacles with Snap AR</>
     ),
     Description: (
       <>
@@ -210,14 +200,12 @@ export const schedule = [
   {
     "Start Time": new Date("Sep 28, 2025 16:30:00"),
     "End Time": null,
-    Event: (
-      <>
-        🔥 Tech Roast Show @ MHacks 🔥
-      </>
-    ),
+    Event: <>🔥 Tech Roast Show @ MHacks 🔥</>,
     Description: (
       <>
-        <Link href="https://sociallyinept.io/" target="_blank">Details</Link>
+        <Link href="https://sociallyinept.io/" target="_blank">
+          Details
+        </Link>
       </>
     ),
     Location: "CCCB 1420",
@@ -438,6 +426,11 @@ export const prizes = [
       </>
     ),
     "Awarded By": "MemryX",
+  },
+  {
+    Category: "Vision Alignment Tool",
+    Prize: "Ford Goodie Bag ($500-$1000)",
+    "Awarded By": "Ford",
   },
   {
     Category: "Build AI Agents with Fetch.ai Tech Stack Winner",
