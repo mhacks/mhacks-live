@@ -9,8 +9,8 @@ export default function Countdown() {
   const [duration, setDuration] = useState<string>("");
   const [diffInSec, setDiffInSec] = useState<number | null>(null);
 
-  const hackingStarts = new Date("Sep 27, 2025 10:00:00");
-  const hackingEnds = new Date("Sep 28, 2025 10:00:00");
+  const hackingStarts = new Date("Sep 27, 2025 11:00:00");
+  const hackingEnds = new Date("Sep 28, 2025 12:00:00");
   const untilText =
     new Date().getTime() > hackingEnds.getTime()
       ? "Hacking has ended."
