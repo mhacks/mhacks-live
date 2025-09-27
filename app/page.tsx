@@ -9,6 +9,7 @@ import DownChevron from "@/public/icons/downChevron.svg";
 import Hero from "@/components/hero/Hero";
 import { useState } from "react";
 import HeroText from "@/components/HeroText";
+import { useEffect } from "react";
 
 const quickLinks = [
   {
@@ -35,6 +36,12 @@ const quickLinks = [
 
 export default function Home() {
   const [smileysClicked, setSmileysClicked] = useState<number>(0);
+
+  useEffect(() => {
+    if (smileysClicked >= 25) {
+        alert("The key is: floss_in_front_of_directors")
+    }
+  }, [smileysClicked]);
 
   return (
     <main className={styles.main}>
