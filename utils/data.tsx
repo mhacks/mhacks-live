@@ -433,8 +433,18 @@ export const prizes = [
     "Awarded By": "Ford",
   },
   {
-    Category: "Build AI Agents with Fetch.ai Tech Stack Winner",
-    Prize: "$2,500",
+    Category: "Best use of Fetch.ai",
+    Prize: "$1,250",
+    "Awarded By": "Fetch.ai",
+  },
+  {
+    Category: "Best Deployment on Agentverse",
+    Prize: "$750",
+    "Awarded By": "Fetch.ai",
+  },
+  {
+    Category: "Best use of ASI:One",
+    Prize: "$500",
     "Awarded By": "Fetch.ai",
   },
   {
